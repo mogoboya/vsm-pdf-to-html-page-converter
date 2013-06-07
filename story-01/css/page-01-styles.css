@@ -1,0 +1,31 @@
+#main_container_inner {
+	background: url('../img/page-01-bg.png') no-repeat;
+    height: 672px;
+    width: 1024px;
+}
+
+.story_title_top {
+	position: absolute;
+	top: 140px;
+	left: 135px;
+	font-size: 95px;
+    font-weight: bold;
+	font-family: 'SlateStdMedium';
+	color: rgb(255, 185, 20);
+	text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+}
+
+p.indent {
+	text-indent: 15px;
+}
+			
+.story_title_bottom {
+	position: absolute;
+	top: 190px;
+	left: 110px;
+	font-size: 150px;
+	font-weight: bold;
+	font-family: 'SlateStdMedium';
+	color: rgb(255, 185, 20);
+	text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
+}

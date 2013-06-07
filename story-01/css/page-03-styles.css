@@ -1,0 +1,63 @@
+#main_container_inner {
+	background: url('../img/page-03-bg.png') no-repeat;
+    height: 672px;
+    width: 1024px;
+}
+
+.image_overlay {
+    color: white;
+}
+
+.left_textbox {
+	width: 225px;
+	position: absolute;
+	top: 175px;
+	left: 385px;
+	font-size: 18px;
+	line-height: 30px;
+	font-family: 'urw_groteskbold';
+}
+
+.right_textbox {
+	width: 241px;
+	position: absolute;
+	top: 325px;
+	left: 668px;
+	font-size: 18px;
+	line-height: 30px;
+	font-family: 'urw_groteskbold';
+}
+
+p.indent {
+	text-indent: 15px;
+}
+
+.right_caption {
+	width: 215px;
+	position: absolute;
+	top: 245px;
+	left: 680px;
+	font-size: 15px;
+	line-height: 18px;
+	font-family: 'SlateStdMedium';
+}
+
+.left_caption {
+	width: 75px;
+	position: absolute;
+	top: 220px;
+	left: 20px;
+	font-size: 14px;
+	line-height: 18px;
+	font-family: 'SlateStdMedium';
+}
+
+.title {
+	position: absolute;
+	top: 125px;
+	left: 384px;
+	font-size: 38px;
+    font-style: bold;
+	font-family: 'SlateStdMedium';
+    color: rgb(38, 65, 138);
+}

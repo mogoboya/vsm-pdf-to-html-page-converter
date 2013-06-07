@@ -1,0 +1,32 @@
+#main_container_inner {
+	background: url('../img/page-06-bg.png') no-repeat;
+    height: 672px;
+    width: 1024px;
+}
+
+.left_textbox {
+	height: 395px;
+	width: 260px;
+	position: absolute;
+	top: 85px;
+	left: 110px;
+	font-size: 18px;
+	line-height: 28px;
+	font-family: 'urw_groteskbold';
+}
+
+p.indent {
+	text-indent: 15px;
+}
+			
+.right_textbox {
+	height: 50px;
+	width: 200px;
+	position: absolute;
+	top: 403px;
+	left: 700px;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 18px;
+	font-family: 'SlateStdMedium';
+}
