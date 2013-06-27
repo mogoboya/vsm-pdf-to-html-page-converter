@@ -1,0 +1,118 @@
+{
+   "pageList" : [
+      {
+         "pageName" : "page-01.xhtml",
+         "xpdfName" : "page-01.xml",
+         "content" : [
+            {
+               "width" : 150,
+               "y" : 100,
+               "textlines" : [
+                  {
+                     "y" : 100,
+                     "text" : "this is a text block",
+                     "x" : 50,
+                     "space" : 1,
+                     "font" : "font1",
+                     "size" : 16
+                  },
+                  {
+                     "y" : 125,
+                     "text" : "another chunk of text",
+                     "x" : 50,
+                     "space" : 0,
+                     "font" : "font1",
+                     "size" : 16
+                  }
+               ],
+               "type" : "running-text",
+               "x" : 50
+            },
+            {
+               "width" : 150,
+               "y" : 100,
+               "textlines" : [
+                  {
+                     "y" : 100,
+                     "text" : "this is a text block",
+                     "x" : 50,
+                     "space" : 1,
+                     "font" : "font1",
+                     "size" : 16
+                  },
+                  {
+                     "y" : 125,
+                     "text" : "another chunk of text",
+                     "x" : 50,
+                     "space" : 0,
+                     "font" : "font1",
+                     "size" : 16
+                  }
+               ],
+               "type" : "running-text",
+               "x" : 50
+            }
+         ],
+         "bgName" : "page-01.jpg"
+      },
+      {
+         "pageName" : "page-02.xhtml",
+         "xpdfName" : "page-02.xml",
+         "content" : [
+            {
+               "width" : 150,
+               "y" : 100,
+               "textlines" : [
+                  {
+                     "y" : 100,
+                     "text" : "this is a text block",
+                     "x" : 50,
+                     "space" : 1,
+                     "font" : "font1",
+                     "size" : 16
+                  },
+                  {
+                     "y" : 125,
+                     "text" : "another chunk of text",
+                     "x" : 50,
+                     "space" : 0,
+                     "font" : "font1",
+                     "size" : 16
+                  }
+               ],
+               "type" : "running-text",
+               "x" : 50
+            },
+            {
+               "width" : 150,
+               "y" : 100,
+               "textlines" : [
+                  {
+                     "y" : 100,
+                     "text" : "this is a text block",
+                     "x" : 50,
+                     "space" : 1,
+                     "font" : "font1",
+                     "size" : 16
+                  },
+                  {
+                     "y" : 125,
+                     "text" : "another chunk of text",
+                     "x" : 50,
+                     "space" : 0,
+                     "font" : "font1",
+                     "size" : 16
+                  }
+               ],
+               "type" : "running-text",
+               "x" : 50
+            }
+         ],
+         "bgName" : "page-02.jpg"
+      }
+   ],
+   "fontLookup" : {
+      "font1" : "TimesRoman",
+      "font2" : "HelveticaOblique"
+   }
+}

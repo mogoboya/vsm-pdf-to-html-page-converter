@@ -1,16 +1,115 @@
 #!/usr/bin/env perl -w
 use strict;
+use CAM::PDF;
+use Data::Dumper;
+use JSON;
 
 # Set inputs.  PDF name, output directory, template page file, etc.
+my $pdf = "sample-book/sample-book.pdf";
+my $pdfbg = "sample-book/sample-book-bg.pdf";
+my $outputDir = "sample-book";
+my $pageTemplate = "page-template";
+my $bookTemplate = "book-template";
 
 # Detect # of pages in source PDF.
+## FOR TESTING ONLY
+my $numPages = 6;
 
-# Declare page-converter object
-## Pagelist w/ background names, XPDF names and page #
-### On each page, add a list of flow/blocks objects.  Each flow/blocks has a list of textlines, an X and Y, a width, and a guess at the appropriate class/type of block.
-#### Textline needs X, Y, fontsize, space boolean, font-face and text.
+# Declare global page-converter object
+my $pageConverter = {};
+
+# ## Create pagelist w/ background names, XPDF names and page #
+# my $i = 0;
+# while ($i < $numPages) {
+# 	## On each page, add a list of flow/blocks objects.  Each flow/blocks has a list of textlines, an X and Y, a width, and a guess at the appropriate class/type of block.
+# 	my %page;
+# 	my $pageName = 
+# 	$page{"bgName"} = [];
+# 	$page{"xpdfName"} = [];
+# 	$page{"pageName"} = [];
+# 	$page{"pageNumber"} = [];
+# 	$page{"flows"} = [];
+# #### Textline needs X, Y, fontsize, space boolean, font-face and text.
+# 	push(@{$pageConverter{"pagelist"}}, \%screen);
+$pageConverter->{"pageList"}[0]{"bgName"} = "page-01.jpg";
+$pageConverter->{"pageList"}[0]{"xpdfName"} = "page-01.xml";
+$pageConverter->{"pageList"}[0]{"pageName"} = "page-01.xhtml";
+$pageConverter->{"pageList"}[0]{"content"}[0]{"textlines"}[0]{"x"} = 50;
+$pageConverter->{"pageList"}[0]{"content"}[0]{"textlines"}[0]{"y"} = 100;
+$pageConverter->{"pageList"}[0]{"content"}[0]{"textlines"}[0]{"font"} = "font1";
+$pageConverter->{"pageList"}[0]{"content"}[0]{"textlines"}[0]{"size"} = 16;
+$pageConverter->{"pageList"}[0]{"content"}[0]{"textlines"}[0]{"space"} = 1;
+$pageConverter->{"pageList"}[0]{"content"}[0]{"textlines"}[0]{"text"} = "this is a text block";
+$pageConverter->{"pageList"}[0]{"content"}[0]{"textlines"}[1]{"x"} = 50;
+$pageConverter->{"pageList"}[0]{"content"}[0]{"textlines"}[1]{"y"} = 125;
+$pageConverter->{"pageList"}[0]{"content"}[0]{"textlines"}[1]{"font"} = "font1";
+$pageConverter->{"pageList"}[0]{"content"}[0]{"textlines"}[1]{"size"} = 16;
+$pageConverter->{"pageList"}[0]{"content"}[0]{"textlines"}[1]{"space"} = 0;
+$pageConverter->{"pageList"}[0]{"content"}[0]{"textlines"}[1]{"text"} = "another chunk of text";
+$pageConverter->{"pageList"}[0]{"content"}[0]{"x"} = 50;
+$pageConverter->{"pageList"}[0]{"content"}[0]{"y"} = 100;
+$pageConverter->{"pageList"}[0]{"content"}[0]{"width"} = 150;
+$pageConverter->{"pageList"}[0]{"content"}[0]{"type"} = "running-text";
+$pageConverter->{"pageList"}[0]{"content"}[1]{"textlines"}[0]{"x"} = 50;
+$pageConverter->{"pageList"}[0]{"content"}[1]{"textlines"}[0]{"y"} = 100;
+$pageConverter->{"pageList"}[0]{"content"}[1]{"textlines"}[0]{"font"} = "font1";
+$pageConverter->{"pageList"}[0]{"content"}[1]{"textlines"}[0]{"size"} = 16;
+$pageConverter->{"pageList"}[0]{"content"}[1]{"textlines"}[0]{"space"} = 1;
+$pageConverter->{"pageList"}[0]{"content"}[1]{"textlines"}[0]{"text"} = "this is a text block";
+$pageConverter->{"pageList"}[0]{"content"}[1]{"textlines"}[1]{"x"} = 50;
+$pageConverter->{"pageList"}[0]{"content"}[1]{"textlines"}[1]{"y"} = 125;
+$pageConverter->{"pageList"}[0]{"content"}[1]{"textlines"}[1]{"font"} = "font1";
+$pageConverter->{"pageList"}[0]{"content"}[1]{"textlines"}[1]{"size"} = 16;
+$pageConverter->{"pageList"}[0]{"content"}[1]{"textlines"}[1]{"space"} = 0;
+$pageConverter->{"pageList"}[0]{"content"}[1]{"textlines"}[1]{"text"} = "another chunk of text";
+$pageConverter->{"pageList"}[0]{"content"}[1]{"x"} = 50;
+$pageConverter->{"pageList"}[0]{"content"}[1]{"y"} = 100;
+$pageConverter->{"pageList"}[0]{"content"}[1]{"width"} = 150;
+$pageConverter->{"pageList"}[0]{"content"}[1]{"type"} = "running-text";
+
+$pageConverter->{"pageList"}[1]{"bgName"} = "page-02.jpg";
+$pageConverter->{"pageList"}[1]{"xpdfName"} = "page-02.xml";
+$pageConverter->{"pageList"}[1]{"pageName"} = "page-02.xhtml";
+$pageConverter->{"pageList"}[1]{"content"}[0]{"textlines"}[0]{"x"} = 50;
+$pageConverter->{"pageList"}[1]{"content"}[0]{"textlines"}[0]{"y"} = 100;
+$pageConverter->{"pageList"}[1]{"content"}[0]{"textlines"}[0]{"font"} = "font1";
+$pageConverter->{"pageList"}[1]{"content"}[0]{"textlines"}[0]{"size"} = 16;
+$pageConverter->{"pageList"}[1]{"content"}[0]{"textlines"}[0]{"space"} = 1;
+$pageConverter->{"pageList"}[1]{"content"}[0]{"textlines"}[0]{"text"} = "this is a text block";
+$pageConverter->{"pageList"}[1]{"content"}[0]{"textlines"}[1]{"x"} = 50;
+$pageConverter->{"pageList"}[1]{"content"}[0]{"textlines"}[1]{"y"} = 125;
+$pageConverter->{"pageList"}[1]{"content"}[0]{"textlines"}[1]{"font"} = "font1";
+$pageConverter->{"pageList"}[1]{"content"}[0]{"textlines"}[1]{"size"} = 16;
+$pageConverter->{"pageList"}[1]{"content"}[0]{"textlines"}[1]{"space"} = 0;
+$pageConverter->{"pageList"}[1]{"content"}[0]{"textlines"}[1]{"text"} = "another chunk of text";
+$pageConverter->{"pageList"}[1]{"content"}[0]{"x"} = 50;
+$pageConverter->{"pageList"}[1]{"content"}[0]{"y"} = 100;
+$pageConverter->{"pageList"}[1]{"content"}[0]{"width"} = 150;
+$pageConverter->{"pageList"}[1]{"content"}[0]{"type"} = "running-text";
+$pageConverter->{"pageList"}[1]{"content"}[1]{"textlines"}[0]{"x"} = 50;
+$pageConverter->{"pageList"}[1]{"content"}[1]{"textlines"}[0]{"y"} = 100;
+$pageConverter->{"pageList"}[1]{"content"}[1]{"textlines"}[0]{"font"} = "font1";
+$pageConverter->{"pageList"}[1]{"content"}[1]{"textlines"}[0]{"size"} = 16;
+$pageConverter->{"pageList"}[1]{"content"}[1]{"textlines"}[0]{"space"} = 1;
+$pageConverter->{"pageList"}[1]{"content"}[1]{"textlines"}[0]{"text"} = "this is a text block";
+$pageConverter->{"pageList"}[1]{"content"}[1]{"textlines"}[1]{"x"} = 50;
+$pageConverter->{"pageList"}[1]{"content"}[1]{"textlines"}[1]{"y"} = 125;
+$pageConverter->{"pageList"}[1]{"content"}[1]{"textlines"}[1]{"font"} = "font1";
+$pageConverter->{"pageList"}[1]{"content"}[1]{"textlines"}[1]{"size"} = 16;
+$pageConverter->{"pageList"}[1]{"content"}[1]{"textlines"}[1]{"space"} = 0;
+$pageConverter->{"pageList"}[1]{"content"}[1]{"textlines"}[1]{"text"} = "another chunk of text";
+$pageConverter->{"pageList"}[1]{"content"}[1]{"x"} = 50;
+$pageConverter->{"pageList"}[1]{"content"}[1]{"y"} = 100;
+$pageConverter->{"pageList"}[1]{"content"}[1]{"width"} = 150;
+$pageConverter->{"pageList"}[1]{"content"}[1]{"type"} = "running-text";
+
 ## Fontlist w/ all fonts found in all XPDFS
-## Error log
+$pageConverter->{"fontLookup"};
+$pageConverter->{"fontLookup"}{"font1"} = "TimesRoman";
+$pageConverter->{"fontLookup"}{"font2"} = "HelveticaOblique";
+
+## Log full datamodel to JSON txt file
+examineHashRef($pageConverter);
 
 # For full PDF
 ## Extract all fonts to .ttf or .otf files using a command-line utility (TBD)
@@ -44,3 +143,15 @@ use strict;
 ## Edit main.js to properly set first and last pages.
 ## Edit main.css to properly set page container size.
 ## Edit shell_footer.png and shell_header.png to match page width.
+
+sub examineHashRef {
+	my $hashref = $_[0];
+	
+	my $JSON = to_json($hashref, {utf8 => 1, pretty => 1});
+	open (OUT, ">:utf8", "datamodel.txt");
+	print OUT $JSON;
+	close OUT;
+
+	print Dumper $hashref;
+	
+}
