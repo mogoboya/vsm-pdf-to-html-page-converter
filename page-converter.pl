@@ -98,6 +98,12 @@ foreach my $page (@{$pageConverter->{"pageList"}}) {
 	### Add page background to img folder
 	copy($processDir . "/bg-images/" . $page->{"bgName"}, $outputDir . "/img/" . $page->{"bgName"});
 	### Milestone 1: Add all text lines into page as simple <p> tags wrapped in <div> tags with increasing numeric ID's.  Absolutey position each line.
+	my $html = "";
+	open (HTML, "<:utf8", $outputDir . "/" . $page->{"pageName"});
+	while (<HTML>) {
+		$html .= $_;
+	}
+	foreach my $line (
 	### Milestone 2: Add all text flows/blocks into page as simple <p> tags wrapped in <div> tags with increasing numeric ID's.  Absolutey position each line.
 }
 ## Edit shell.html to default to the first page.

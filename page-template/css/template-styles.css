@@ -4,16 +4,7 @@
     width: 1024px;
 }
 
-.story_title_top {
-	position: absolute;
-	top: 140px;
-	left: 135px;
-	font-size: 95px;
-    font-weight: bold;
-	font-family: 'SlateStdMedium';
-	color: rgb(255, 185, 20);
-	text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
-}
+.block-1{position: absolute;left: 135px;top: 140px;font-size: 95px;font-family: 'SlateStdMedium';content: "";}
 
 p.indent {
 	text-indent: 15px;
