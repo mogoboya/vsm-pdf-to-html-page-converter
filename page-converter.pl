@@ -2,12 +2,13 @@
 use strict;
 use CAM::PDF;
 use Data::Dumper;
+use File::Copy::Recursive qw(rcopy);
 use JSON;
 
 # Set inputs.  PDF name, output directory, template page file, etc.
 my $pdf = "sample-book/sample-book.pdf";
 my $pdfbg = "sample-book/sample-book-bg.pdf";
-my $outputDir = "sample-book";
+my $outputDir = "sample-book/output";
 my $pageTemplate = "page-template";
 my $bookTemplate = "book-template";
 
@@ -16,27 +17,23 @@ my $bookTemplate = "book-template";
 my $numPages = 6;
 
 # Declare global page-converter object
-my $pageConverter = buildDummyPageConverter();
-examineHashRef($pageConverter);
+my $pageConverter = {};
 
-# ## Create pagelist w/ background names, XPDF names and page #
-# my $i = 0;
-# while ($i < $numPages) {
-# 	## On each page, add a list of flow/blocks objects.  Each flow/blocks has a list of textlines, an X and Y, a width, and a guess at the appropriate class/type of block.
-# 	my %page;
-# 	my $pageName = 
-# 	$page{"bgName"} = [];
-# 	$page{"xpdfName"} = [];
-# 	$page{"pageName"} = [];
-# 	$page{"pageNumber"} = [];
-# 	$page{"flows"} = [];
-# #### Textline needs X, Y, fontsize, space boolean, font-face and text.
-# 	push(@{$pageConverter{"pagelist"}}, \%screen);
 
+## Create pagelist w/ background names, XPDF names and page #
+my $i = 0;
+while ($i < $numPages) {
+	## On each page, add a list of flow/blocks objects.  Each flow/blocks has a list of textlines, an X and Y, a width, and a guess at the appropriate class/type of block.
+	my $pageBase = "page-0" . ($i + 1);
+	$pageConverter->{"pageList"}[$i]{"bgName"} = $pageBase . ".jpg";
+	$pageConverter->{"pageList"}[$i]{"xpdfName"} = $pageBase . ".xml";
+	$pageConverter->{"pageList"}[$i]{"pageName"} = $pageBase . ".html";
+	$pageConverter->{"pageList"}[$i]{"content"} = [];
+	$i++;
+#### Textline needs X, Y, fontsize, space boolean, font-face and text.
+}
 ## Fontlist w/ all fonts found in all XPDFS
-
-
-## Log full datamodel to JSON txt file
+# examineHashRef($pageConverter);
 
 # For full PDF
 ## Extract all fonts to .ttf or .otf files using a command-line utility (TBD)
@@ -44,6 +41,10 @@ examineHashRef($pageConverter);
 ###               http://www.pdffontextract.tk/#
 ###               http://www.wizards.de/~frank/pstill.html
 ###               ftp://tug.org/texlive/Contents/live/bin/i386-linux/
+
+	$pageConverter->{"fontLookup"};
+	$pageConverter->{"fontLookup"}{"font1"} = "TimesRoman";
+	$pageConverter->{"fontLookup"}{"font2"} = "HelveticaOblique";
 
 # For each page in the PDF
 ## Milestone 1: Rasterize the background of the same page in the background PDF into a png.
@@ -54,18 +55,28 @@ examineHashRef($pageConverter);
 ### Stuff the page-converter object
 
 # Duplicate book-template into output folder, do initial renaming / set-up.
+rcopy ($bookTemplate, $outputDir);
 
 # Work off the page-converter object
 ## For each font in the fontlist
-### Find matching .ttf file in the extracted-fonts folder.  Provide user input for matching if no clear match.
-### Run webify to extract web fonts from .ttf file.  Prompt user about licensing!!!
-### Add all necessary font files into output folder.
-### Edit fonts.css in output folder, adding a new font-face for each font.
+foreach my $font (keys %{$pageConverter->{"fontLookup"}}) {
+	### Find matching .ttf file in the extracted-fonts folder.  Provide user input for matching if no clear match.
+	print $font . "\n";
+	print $pageConverter->{"fontLookup"}{$font} . "\n";
+	
+	### Run webify to extract web fonts from .ttf file.  Prompt user about licensing!!!
+	### Add all necessary font files into output folder.
+	### Edit fonts.css in output folder, adding a new font-face for each font.
+}
 ## For each page in pagelist
-### Duplicate page-template into output book-template folder, renaming to page-### in all necessary locations.
-### Add page background to img folder
-### Milestone 1: Add all text lines into page as simple <p> tags wrapped in <div> tags with increasing numeric ID's.  Absolutey position each line.
-### Milestone 2: Add all text flows/blocks into page as simple <p> tags wrapped in <div> tags with increasing numeric ID's.  Absolutey position each line.
+foreach my $page (@{$pageConverter->{"pageList"}}) {
+	### Duplicate page-template into output book-template folder, renaming to page-### in all necessary locations.
+	rcopy ($pageTemplate, $outputDir);
+	print Dumper $page;
+	### Add page background to img folder
+	### Milestone 1: Add all text lines into page as simple <p> tags wrapped in <div> tags with increasing numeric ID's.  Absolutey position each line.
+	### Milestone 2: Add all text flows/blocks into page as simple <p> tags wrapped in <div> tags with increasing numeric ID's.  Absolutey position each line.
+}
 ## Edit shell.html to default to the first page.
 ## Edit main.js to properly set first and last pages.
 ## Edit main.css to properly set page container size.
