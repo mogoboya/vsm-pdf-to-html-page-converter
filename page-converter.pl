@@ -3,12 +3,14 @@ use strict;
 use CAM::PDF;
 use Data::Dumper;
 use File::Copy::Recursive qw(rcopy);
+use File::Copy;
 use JSON;
 
 # Set inputs.  PDF name, output directory, template page file, etc.
-my $pdf = "sample-book/sample-book.pdf";
-my $pdfbg = "sample-book/sample-book-bg.pdf";
-my $outputDir = "sample-book/output";
+my $processDir = "sample-book";
+my $pdf = $processDir ."/sample-book.pdf";
+my $pdfbg = $processDir ."/sample-book-bg.pdf";
+my $outputDir = $processDir ."/output";
 my $pageTemplate = "page-template";
 my $bookTemplate = "book-template";
 
@@ -21,19 +23,50 @@ my $pageConverter = {};
 
 
 ## Create pagelist w/ background names, XPDF names and page #
+### For each page in the PDF
 my $i = 0;
 while ($i < $numPages) {
-	## On each page, add a list of flow/blocks objects.  Each flow/blocks has a list of textlines, an X and Y, a width, and a guess at the appropriate class/type of block.
 	my $pageBase = "page-0" . ($i + 1);
-	$pageConverter->{"pageList"}[$i]{"bgName"} = $pageBase . ".jpg";
-	$pageConverter->{"pageList"}[$i]{"xpdfName"} = $pageBase . ".xml";
+	$pageConverter->{"pageList"}[$i]{"bgName"} = $pageBase . "-bg.jpg";
+	$pageConverter->{"pageList"}[$i]{"xpdfName"} = "000" . ($i + 1) . ".xml";
 	$pageConverter->{"pageList"}[$i]{"pageName"} = $pageBase . ".html";
-	$pageConverter->{"pageList"}[$i]{"content"} = [];
+	## On each page, add a list of flow/blocks objects.  Each flow/blocks has a list of textlines, an X and Y, a width, and a guess at the appropriate class/type of block.
+	## Run pdftotext, open the output and examine it
+	open (XPDF, "<:utf8", $processDir . "/extracted-text/" . $pageConverter->{"pageList"}[$i]{"xpdfName"});
+	my @words;
+	while (<XPDF>){
+		chomp;
+		if ($_ =~ /<word/) {
+			push (@words, $_);
+		}
+	}
+	#### Textline needs X, Y, fontsize, space boolean, font-face and text.
+	my $numWords = @words;
+	my $j = 0;
+	while ($j < $numWords) {
+		my $word = $words[$j];
+		$word =~ /^.*word.*?xMin=\"(?<x>.*?)\".*?yMin=\"(?<y>.*?)\".*?space=\"(?<space>.*?)\".*?fontName=\"(?<font>.*?)\".*?fontSize=\"(?<size>.*?)\".*?CDATA\[(?<text>.*?)\].*$/;
+		my %matches = %+;
+		my $matchesRef = {};
+		$pageConverter->{"pageList"}[$i]{"content"}[$j]{"textlines"}[0]{"x"} = $matches{"x"};
+		$pageConverter->{"pageList"}[$i]{"content"}[$j]{"textlines"}[0]{"y"} = $matches{"y"};
+		$pageConverter->{"pageList"}[$i]{"content"}[$j]{"textlines"}[0]{"font"} = $matches{"font"};
+		$pageConverter->{"pageList"}[$i]{"content"}[$j]{"textlines"}[0]{"size"} = $matches{"size"};
+		$pageConverter->{"pageList"}[$i]{"content"}[$j]{"textlines"}[0]{"space"} = $matches{"space"};
+		$pageConverter->{"pageList"}[$i]{"content"}[$j]{"textlines"}[0]{"text"} = $matches{"text"};
+		$j++;
+	}
+	
+	## Milestone 1: Rasterize the background of the same page in the background PDF into a png.
+	## Milestone 2: Detext the page and rasterize the background into a png.
+	## Compress the background jpg using imagemagick.
+	### Add all fonts into the font dictionary
+	### Stuff the page-converter object
+
 	$i++;
-#### Textline needs X, Y, fontsize, space boolean, font-face and text.
 }
 ## Fontlist w/ all fonts found in all XPDFS
-# examineHashRef($pageConverter);
+examineHashRef($pageConverter);
 
 # For full PDF
 ## Extract all fonts to .ttf or .otf files using a command-line utility (TBD)
@@ -42,17 +75,8 @@ while ($i < $numPages) {
 ###               http://www.wizards.de/~frank/pstill.html
 ###               ftp://tug.org/texlive/Contents/live/bin/i386-linux/
 
-	$pageConverter->{"fontLookup"};
-	$pageConverter->{"fontLookup"}{"font1"} = "TimesRoman";
-	$pageConverter->{"fontLookup"}{"font2"} = "HelveticaOblique";
-
-# For each page in the PDF
-## Milestone 1: Rasterize the background of the same page in the background PDF into a png.
-## Milestone 2: Detext the page and rasterize the background into a png.
-## Compress the background png using pngquanti.
-## Run pdftotext, open the output and examine it
-### Add all fonts into the font dictionary
-### Stuff the page-converter object
+$pageConverter->{"fontLookup"}{"font1"} = "TimesRoman";
+$pageConverter->{"fontLookup"}{"font2"} = "HelveticaOblique";
 
 # Duplicate book-template into output folder, do initial renaming / set-up.
 rcopy ($bookTemplate, $outputDir);
@@ -61,8 +85,7 @@ rcopy ($bookTemplate, $outputDir);
 ## For each font in the fontlist
 foreach my $font (keys %{$pageConverter->{"fontLookup"}}) {
 	### Find matching .ttf file in the extracted-fonts folder.  Provide user input for matching if no clear match.
-	print $font . "\n";
-	print $pageConverter->{"fontLookup"}{$font} . "\n";
+	# print $pageConverter->{"fontLookup"}{$font} . "\n";
 	
 	### Run webify to extract web fonts from .ttf file.  Prompt user about licensing!!!
 	### Add all necessary font files into output folder.
@@ -71,9 +94,9 @@ foreach my $font (keys %{$pageConverter->{"fontLookup"}}) {
 ## For each page in pagelist
 foreach my $page (@{$pageConverter->{"pageList"}}) {
 	### Duplicate page-template into output book-template folder, renaming to page-### in all necessary locations.
-	rcopy ($pageTemplate, $outputDir);
-	print Dumper $page;
+	copy($pageTemplate . "/template.html", $outputDir . "/" . $page->{"pageName"}); 
 	### Add page background to img folder
+	copy($processDir . "/bg-images/" . $page->{"bgName"}, $outputDir . "/img/" . $page->{"bgName"});
 	### Milestone 1: Add all text lines into page as simple <p> tags wrapped in <div> tags with increasing numeric ID's.  Absolutey position each line.
 	### Milestone 2: Add all text flows/blocks into page as simple <p> tags wrapped in <div> tags with increasing numeric ID's.  Absolutey position each line.
 }
@@ -169,7 +192,6 @@ sub buildDummyPageConverter {
 	$pageConverter->{"pageList"}[1]{"content"}[1]{"width"} = 150;
 	$pageConverter->{"pageList"}[1]{"content"}[1]{"type"} = "running-text";
 
-	$pageConverter->{"fontLookup"};
 	$pageConverter->{"fontLookup"}{"font1"} = "TimesRoman";
 	$pageConverter->{"fontLookup"}{"font2"} = "HelveticaOblique";
 	return $pageConverter;

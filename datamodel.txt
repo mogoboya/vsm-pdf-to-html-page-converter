@@ -29,7 +29,7 @@
                ]
             }
          ],
-         "bgName" : "page-01.jpg"
+         "bgName" : "page-01-bg.jpg"
       },
       {
          "pageName" : "page-02.html",
@@ -900,7 +900,7 @@
                ]
             }
          ],
-         "bgName" : "page-02.jpg"
+         "bgName" : "page-02-bg.jpg"
       },
       {
          "pageName" : "page-03.html",
@@ -2131,7 +2131,7 @@
                ]
             }
          ],
-         "bgName" : "page-03.jpg"
+         "bgName" : "page-03-bg.jpg"
       },
       {
          "pageName" : "page-04.html",
@@ -3326,7 +3326,7 @@
                ]
             }
          ],
-         "bgName" : "page-04.jpg"
+         "bgName" : "page-04-bg.jpg"
       },
       {
          "pageName" : "page-05.html",
@@ -5373,7 +5373,7 @@
                ]
             }
          ],
-         "bgName" : "page-05.jpg"
+         "bgName" : "page-05-bg.jpg"
       },
       {
          "pageName" : "page-06.html",
@@ -6868,7 +6868,7 @@
                ]
             }
          ],
-         "bgName" : "page-06.jpg"
+         "bgName" : "page-06-bg.jpg"
       }
    ]
 }
