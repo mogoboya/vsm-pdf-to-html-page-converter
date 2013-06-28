@@ -30,6 +30,7 @@ while ($i < $numPages) {
 	$pageConverter->{"pageList"}[$i]{"bgName"} = $pageBase . "-bg.jpg";
 	$pageConverter->{"pageList"}[$i]{"xpdfName"} = "000" . ($i + 1) . ".xml";
 	$pageConverter->{"pageList"}[$i]{"pageName"} = $pageBase . ".html";
+	$pageConverter->{"pageList"}[$i]{"cssName"} = $pageBase . "-styles.css";
 	## On each page, add a list of flow/blocks objects.  Each flow/blocks has a list of textlines, an X and Y, a width, and a guess at the appropriate class/type of block.
 	## Run pdftotext, open the output and examine it
 	open (XPDF, "<:utf8", $processDir . "/extracted-text/" . $pageConverter->{"pageList"}[$i]{"xpdfName"});
@@ -45,7 +46,7 @@ while ($i < $numPages) {
 	my $j = 0;
 	while ($j < $numWords) {
 		my $word = $words[$j];
-		$word =~ /^.*word.*?xMin=\"(?<x>.*?)\".*?yMin=\"(?<y>.*?)\".*?space=\"(?<space>.*?)\".*?fontName=\"(?<font>.*?)\".*?fontSize=\"(?<size>.*?)\".*?CDATA\[(?<text>.*?)\].*$/;
+		$word =~ /^.*word.*?xMin=\"(?<x>.*?)\".*?yMin=\"(?<y>.*?)\".*?space=\"(?<space>.*?)\".*?fontName=\"[A-Z]*\+(?<font>.*?)\".*?fontSize=\"(?<size>.*?)\".*?CDATA\[(?<text>.*?)\].*$/;
 		my %matches = %+;
 		my $matchesRef = {};
 		$pageConverter->{"pageList"}[$i]{"content"}[$j]{"textlines"}[0]{"x"} = $matches{"x"};
@@ -66,7 +67,7 @@ while ($i < $numPages) {
 	$i++;
 }
 ## Fontlist w/ all fonts found in all XPDFS
-examineHashRef($pageConverter);
+# examineHashRef($pageConverter);
 
 # For full PDF
 ## Extract all fonts to .ttf or .otf files using a command-line utility (TBD)
@@ -95,15 +96,63 @@ foreach my $font (keys %{$pageConverter->{"fontLookup"}}) {
 foreach my $page (@{$pageConverter->{"pageList"}}) {
 	### Duplicate page-template into output book-template folder, renaming to page-### in all necessary locations.
 	copy($pageTemplate . "/template.html", $outputDir . "/" . $page->{"pageName"}); 
+	copy($pageTemplate . "/css/template-styles.css", $outputDir . "/css/" . $page->{"cssName"}); 
 	### Add page background to img folder
 	copy($processDir . "/bg-images/" . $page->{"bgName"}, $outputDir . "/img/" . $page->{"bgName"});
 	### Milestone 1: Add all text lines into page as simple <p> tags wrapped in <div> tags with increasing numeric ID's.  Absolutey position each line.
+	
+	# Initialize $html page markup string.
 	my $html = "";
 	open (HTML, "<:utf8", $outputDir . "/" . $page->{"pageName"});
-	while (<HTML>) {
-		$html .= $_;
+	while (<HTML>) {$html .= $_}
+	close HTML;
+	
+	# Initialize $css page styles string.
+	my $css = "";
+	open (CSS, "<:utf8", $outputDir . "/css/" . $page->{"cssName"});
+	while (<CSS>) {$css .= $_}
+	close CSS;
+	
+	# Re-open HTML and CSS files for write.
+	open (HTML, ">:utf8", $outputDir . "/" . $page->{"pageName"});
+	# Link HTML to stylesheet
+	$html =~ s/template-styles.css/$page->{"cssName"}/g;
+	
+	open (CSS, ">:utf8", $outputDir . "/css/" . $page->{"cssName"});	
+	# Add correct background image name into css sheet
+	$css =~ s/template-bg.jpg/$page->{"bgName"}/g;
+	
+	# Loop through a blocks to find lines, then all lines to edit HTML and CSS pages.
+	my @textBlocks = @{$page->{"content"}};
+	my $blockCount = @textBlocks;
+	my $i = 0;
+	# print $page->{"pageName"} . " has " . $blockCount . " blocks.\n";
+	
+	while ($i < $blockCount) {
+		my $block = $textBlocks[$i];
+		# print Dumper $block;
+		# print "Block id: $i has $lineCount lines.\n";
+		my @textLines = @{$block->{"textlines"}};
+		my $lineCount = @textLines;
+		my $j = 0;
+		
+		while ($j < $lineCount) {
+			my $line = $textLines[$j];
+			# print Dumper $line;
+			$html =~ s/(%INSERTBLOCKS%)/<span id="block-$i-line-$j">$line->{"text"}<\/span>\n$1/;
+			$css =~ s/(%INSERTBLOCKS%)/#block-$i-line-$j {position: absolute;left: $line->{"x"}px;top: $line->{"y"}px;font-size: $line->{"size"}px;font-family: '$line->{"font"}';}\n$1/;
+			$j++;
+		}
+		$i++;
 	}
-	foreach my $line (
+	# Remove template %INSERTBLOCKS% and print to files.
+	$html =~ s/%INSERTBLOCKS%//g;
+	$css =~ s/%INSERTBLOCKS%//g;
+	print HTML $html;
+	close HTML;
+	print CSS $css;
+	close CSS;
+	
 	### Milestone 2: Add all text flows/blocks into page as simple <p> tags wrapped in <div> tags with increasing numeric ID's.  Absolutey position each line.
 }
 ## Edit shell.html to default to the first page.
