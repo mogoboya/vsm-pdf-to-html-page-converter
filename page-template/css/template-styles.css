@@ -1,22 +1,11 @@
 #main_container_inner {
-	background: url('../img/template-bg.png') no-repeat;
+	background: url('../img/template-bg.jpg') no-repeat;
     height: 672px;
     width: 1024px;
 }
 
-.block-1{position: absolute;left: 135px;top: 140px;font-size: 95px;font-family: 'SlateStdMedium';content: "";}
+%INSERTBLOCKS%
 
 p.indent {
 	text-indent: 15px;
-}
-			
-.story_title_bottom {
-	position: absolute;
-	top: 190px;
-	left: 110px;
-	font-size: 150px;
-	font-weight: bold;
-	font-family: 'SlateStdMedium';
-	color: rgb(255, 185, 20);
-	text-shadow: -2px -2px 0 black, 2px -2px 0 black, -2px 2px 0 black, 2px 2px 0 black;
 }

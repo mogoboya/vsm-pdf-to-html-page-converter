@@ -93,20 +93,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-#shell_header {
-	background: url('../img/shell_header.png') no-repeat;
-    height: 70px;
-    width: 1024px;
-    margin: 0 auto;
-    position: relative;
-    z-index: 9999;
-}
-
 #shell_footer {
 	background: url('../img/shell_footer.png') no-repeat;
     height: 30px;
     width: 1024px;
-    margin: -105px auto;
+    margin: -35px auto;
     position: relative;
     z-index: 9999;
 }
@@ -115,7 +106,7 @@ iframe {
 	border: none;
 	height: 672px;
     width: 1024px;
-    margin: -70px auto 0 auto;
+    margin: 0px auto 0 auto;
 }
 
 
