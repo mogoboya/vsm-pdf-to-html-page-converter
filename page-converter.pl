@@ -97,7 +97,11 @@ foreach my $font (keys %{$pageConverter->{"fontLookup"}}) {
 	### Edit fonts.css in output folder, adding a new font-face for each font.
 }
 ## For each page in pagelist
-foreach my $page (@{$pageConverter->{"pageList"}}) {
+my @pages = @{$pageConverter->{"pageList"}};
+my $p = 0;
+while ($p < $numPages) {
+	my $page = $pages[$p];
+	
 	### Duplicate page-template into output book-template folder, renaming to page-### in all necessary locations.
 	copy($pageTemplate . "/template.html", $outputDir . "/" . $page->{"pageName"}); 
 	copy($pageTemplate . "/css/template-styles.css", $outputDir . "/css/" . $page->{"cssName"}); 
@@ -119,12 +123,23 @@ foreach my $page (@{$pageConverter->{"pageList"}}) {
 	
 	# Re-open HTML and CSS files for write.
 	open (HTML, ">:utf8", $outputDir . "/" . $page->{"pageName"});
-	# Link HTML to stylesheet
+	# Link HTML to stylesheet, add in correct background image name
 	$html =~ s/template-styles.css/$page->{"cssName"}/g;
-	
+	$html =~ s/template-bg.jpg/$page->{"bgName"}/g;
+	if ($p == 0) {
+		$html =~ s/(<div.*?)prev-page.html(.*\/div>)//g;
+	} else {
+		$html =~ s/(<div.*?)prev-page.html(.*\/div>)/$1$pages[($p-1)]->{"pageName"}$2/g;
+	}
+	if ($p == ($numPages - 1)) {
+		$html =~ s/(<div.*?)next-page.html(.*\/div>)//g;
+	} else {
+		$html =~ s/(<div.*?)next-page.html(.*\/div>)/$1$pages[($p+1)]->{"pageName"}$2/g;
+	}
+		
+		
+		
 	open (CSS, ">:utf8", $outputDir . "/css/" . $page->{"cssName"});	
-	# Add correct background image name into css sheet
-	$css =~ s/template-bg.jpg/$page->{"bgName"}/g;
 	
 	# Loop through a blocks to find lines, then all lines to edit HTML and CSS pages.
 	my @textBlocks = @{$page->{"content"}};
@@ -143,7 +158,7 @@ foreach my $page (@{$pageConverter->{"pageList"}}) {
 		while ($j < $lineCount) {
 			my $line = $textLines[$j];
 			# print Dumper $line;
-			$html =~ s/(%INSERTBLOCKS%)/<span id="block-$i-line-$j">$line->{"text"}<\/span>\n$1/;
+			$html =~ s/(%INSERTBLOCKS%)/\t\t<span id="block-$i-line-$j">$line->{"text"}<\/span>\n$1/;
 			$css =~ s/(%INSERTBLOCKS%)/#block-$i-line-$j {position: absolute;left: $line->{"x"}px;top: $line->{"y"}px;font-size: $line->{"size"}px;font-family: '$line->{"font"}';}\n$1/;
 			$j++;
 		}
@@ -158,6 +173,7 @@ foreach my $page (@{$pageConverter->{"pageList"}}) {
 	close CSS;
 	
 	### Milestone 2: Add all text flows/blocks into page as simple <p> tags wrapped in <div> tags with increasing numeric ID's.  Absolutey position each line.
+	$p++;
 }
 ## Edit shell.html to default to the first page.
 ## Edit main.js to properly set first and last pages.
