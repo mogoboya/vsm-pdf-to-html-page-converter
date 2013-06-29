@@ -130,44 +130,35 @@
 	</div>
 	<script>
 		$(document).ready(function () {
+			var lookupTable = {};
             var placeText = function() {
-                var nativeH = document.getElementById('bg-image').naturalHeight;
-                var nativeW = document.getElementById('bg-image').naturalWidth;
-                var currW = ($(this).width());
-				var currH = currW * nativeH / nativeW;
-                var sizeRatio = currH / nativeH;
+                var nativeW = document.getElementById('bg-image').naturalWidth; // eg 500
+				var nativeH = document.getElementById('bg-image').naturalHeight; // eg 1000
+                var currW = ($(this).width()); // zoomed in to 1.5x - 750
+                var sizeRatio = currW / nativeW; // eg 1.5
+				var currH = sizeRatio * nativeH; // 1.5 * 1000 = 1500
                 $('span').each(function () {
-                    var newX, newY;
                     var $this = $(this);
-                    var oldX = parseFloat($this.css('left'),10);
-                    var oldY = parseFloat($this.css('top'),10);
-                    newX = (oldX / nativeW) * currH;
-                    newY = (oldY / nativeH) * currH;
-                    $this.css('left', newX + "px");
-                    $this.css('top', newY + "px");
-                });
-            };
-            
-            var resizeText = function() {
-                var nativeH = document.getElementById('bg-image').naturalHeight;
-                var nativeW = document.getElementById('bg-image').naturalWidth;
-                var currW = ($(this).width());
-				var currH = currW * nativeH / nativeW;
-                var sizeRatio = currH / nativeH;
-                $('span').each(function () {
-                    var newX, newY;
-                    var $this = $(this);
-                    var oldX = parseFloat($this.css('left'),10);
-                    var oldY = parseFloat($this.css('top'),10);
-                    newX = (oldX / currW) * currH;
-                    newY = (oldY / currH) * currH;
-                    $this.css('left', newX + "px");
-                    $this.css('top', newY + "px");
+					var newX, newY, newSize;
+					var id = $this.attr('id');
+					// Check lookupTable if ID has been defined
+					if (!(lookupTable[id])) {
+						var origX = parseFloat($this.css('left'),10);
+						var origY = parseFloat($this.css('top'),10);
+						var origSize = parseFloat($this.css('font-size'),10);
+						lookupTable[id] = {'x' : origX, 'y': origY, 'size': origSize};
+					}
+					newX = lookupTable[id].x * sizeRatio;
+					newY = lookupTable[id].y * sizeRatio;
+					newSize = lookupTable[id].size * sizeRatio;
+					$this.css('left', newX + "px");
+					$this.css('top', newY + "px");		
+					$this.css('font-size', newSize + "px");		
                 });
             };
             
             $('#bg-image').load(placeText);
-            $(window).resize(resizeText);
+            $(window).resize(placeText);
 		});
 	</script>
 
