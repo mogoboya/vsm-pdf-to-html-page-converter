@@ -5,6 +5,7 @@ use Data::Dumper;
 use File::Copy::Recursive qw(rcopy);
 use File::Copy;
 use JSON;
+use utf8;
 use XML::LibXML;
 
 # Set inputs.  PDF name, output directory, template page file, etc.
@@ -161,7 +162,7 @@ while ($p < $numPages) {
 			$html =~ s/(%INSERTBLOCKS%)/\t\t<span id="block-$i-line-$j">$line->{"text"}<\/span>\n$1/;
 			$css =~ s/(%INSERTBLOCKS%)/#block-$i-line-$j {position: absolute;left: $line->{"x"}px;top: $line->{"y"}px;font-size: $line->{"size"}px;font-family: '$line->{"font"}';}\n$1/;
 			unless ($fontFaces =~ /font-family: '$line->{"font"}';/) {
-			    $fontFaces =~ s/(%INSERTFONTS%)/\@font-face \{font-family: '$line->{"font"}';src: url('..\/fonts\/$line->{"font"}.eot');src: url('..\/fonts\/$line->{"font"}.eot'#iefix) format('embedded-opentype'),url('..\/fonts\/$line->{"font"}.woff') format('woff'),url('..\/fonts\/$line->{"font"}.ttf') format('truetype'),url('..\/fonts\/$line->{"font"}.svg\#$line->{"font"}') format('svg');}\n$1/;
+			    $fontFaces =~ s/(%INSERTFONTS%)/\@font-face \{font-family: '$line->{"font"}';src: url('..\/fonts\/$line->{"font"}.eot');src: local('☺'),url('..\/fonts\/$line->{"font"}.woff') format('woff'),url('..\/fonts\/$line->{"font"}.ttf') format('truetype'),url('..\/fonts\/$line->{"font"}.svg\#$line->{"font"}') format('svg');}\n$1/;
 			}
 			$j++;
 		}
