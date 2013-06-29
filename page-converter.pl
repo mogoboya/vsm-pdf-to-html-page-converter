@@ -10,13 +10,15 @@ use JSON;
 my $processDir = "sample-book";
 my $pdf = $processDir ."/sample-book.pdf";
 my $pdfbg = $processDir ."/sample-book-bg.pdf";
-my $outputDir = $processDir ."/output";
+my $outputDir = $processDir ."/output2";
 my $pageTemplate = "page-template";
 my $bookTemplate = "book-template";
 
-# Detect # of pages in source PDF.
+# Detect # of pages and page size of source PDF.
 ## FOR TESTING ONLY
 my $numPages = 6;
+my $pageWidth = 1024;
+my $pageHeight = 672;
 
 # Declare global page-converter object
 my $pageConverter = {};
@@ -31,6 +33,8 @@ while ($i < $numPages) {
 	$pageConverter->{"pageList"}[$i]{"xpdfName"} = "000" . ($i + 1) . ".xml";
 	$pageConverter->{"pageList"}[$i]{"pageName"} = $pageBase . ".html";
 	$pageConverter->{"pageList"}[$i]{"cssName"} = $pageBase . "-styles.css";
+	$pageConverter->{"pageList"}[$i]{"pageWidth"} = $pageWidth;
+	$pageConverter->{"pageList"}[$i]{"pageHeight"} = $pageHeight;
 	## On each page, add a list of flow/blocks objects.  Each flow/blocks has a list of textlines, an X and Y, a width, and a guess at the appropriate class/type of block.
 	## Run pdftotext, open the output and examine it
 	open (XPDF, "<:utf8", $processDir . "/extracted-text/" . $pageConverter->{"pageList"}[$i]{"xpdfName"});
@@ -170,84 +174,4 @@ sub examineHashRef {
 
 	print Dumper $hashref;
 	
-}
-
-sub buildDummyPageConverter {
-	my $pageConverter;
-	
-	$pageConverter->{"pageList"}[0]{"bgName"} = "page-01.jpg";
-	$pageConverter->{"pageList"}[0]{"xpdfName"} = "page-01.xml";
-	$pageConverter->{"pageList"}[0]{"pageName"} = "page-01.xhtml";
-	$pageConverter->{"pageList"}[0]{"content"}[0]{"textlines"}[0]{"x"} = 50;
-	$pageConverter->{"pageList"}[0]{"content"}[0]{"textlines"}[0]{"y"} = 100;
-	$pageConverter->{"pageList"}[0]{"content"}[0]{"textlines"}[0]{"font"} = "font1";
-	$pageConverter->{"pageList"}[0]{"content"}[0]{"textlines"}[0]{"size"} = 16;
-	$pageConverter->{"pageList"}[0]{"content"}[0]{"textlines"}[0]{"space"} = 1;
-	$pageConverter->{"pageList"}[0]{"content"}[0]{"textlines"}[0]{"text"} = "this is a text block";
-	$pageConverter->{"pageList"}[0]{"content"}[0]{"textlines"}[1]{"x"} = 50;
-	$pageConverter->{"pageList"}[0]{"content"}[0]{"textlines"}[1]{"y"} = 125;
-	$pageConverter->{"pageList"}[0]{"content"}[0]{"textlines"}[1]{"font"} = "font1";
-	$pageConverter->{"pageList"}[0]{"content"}[0]{"textlines"}[1]{"size"} = 16;
-	$pageConverter->{"pageList"}[0]{"content"}[0]{"textlines"}[1]{"space"} = 0;
-	$pageConverter->{"pageList"}[0]{"content"}[0]{"textlines"}[1]{"text"} = "another chunk of text";
-	$pageConverter->{"pageList"}[0]{"content"}[0]{"x"} = 50;
-	$pageConverter->{"pageList"}[0]{"content"}[0]{"y"} = 100;
-	$pageConverter->{"pageList"}[0]{"content"}[0]{"width"} = 150;
-	$pageConverter->{"pageList"}[0]{"content"}[0]{"type"} = "running-text";
-	$pageConverter->{"pageList"}[0]{"content"}[1]{"textlines"}[0]{"x"} = 50;
-	$pageConverter->{"pageList"}[0]{"content"}[1]{"textlines"}[0]{"y"} = 100;
-	$pageConverter->{"pageList"}[0]{"content"}[1]{"textlines"}[0]{"font"} = "font1";
-	$pageConverter->{"pageList"}[0]{"content"}[1]{"textlines"}[0]{"size"} = 16;
-	$pageConverter->{"pageList"}[0]{"content"}[1]{"textlines"}[0]{"space"} = 1;
-	$pageConverter->{"pageList"}[0]{"content"}[1]{"textlines"}[0]{"text"} = "this is a text block";
-	$pageConverter->{"pageList"}[0]{"content"}[1]{"textlines"}[1]{"x"} = 50;
-	$pageConverter->{"pageList"}[0]{"content"}[1]{"textlines"}[1]{"y"} = 125;
-	$pageConverter->{"pageList"}[0]{"content"}[1]{"textlines"}[1]{"font"} = "font1";
-	$pageConverter->{"pageList"}[0]{"content"}[1]{"textlines"}[1]{"size"} = 16;
-	$pageConverter->{"pageList"}[0]{"content"}[1]{"textlines"}[1]{"space"} = 0;
-	$pageConverter->{"pageList"}[0]{"content"}[1]{"textlines"}[1]{"text"} = "another chunk of text";
-	$pageConverter->{"pageList"}[0]{"content"}[1]{"x"} = 50;
-	$pageConverter->{"pageList"}[0]{"content"}[1]{"y"} = 100;
-	$pageConverter->{"pageList"}[0]{"content"}[1]{"width"} = 150;
-	$pageConverter->{"pageList"}[0]{"content"}[1]{"type"} = "running-text";
-
-	$pageConverter->{"pageList"}[1]{"bgName"} = "page-02.jpg";
-	$pageConverter->{"pageList"}[1]{"xpdfName"} = "page-02.xml";
-	$pageConverter->{"pageList"}[1]{"pageName"} = "page-02.xhtml";
-	$pageConverter->{"pageList"}[1]{"content"}[0]{"textlines"}[0]{"x"} = 50;
-	$pageConverter->{"pageList"}[1]{"content"}[0]{"textlines"}[0]{"y"} = 100;
-	$pageConverter->{"pageList"}[1]{"content"}[0]{"textlines"}[0]{"font"} = "font1";
-	$pageConverter->{"pageList"}[1]{"content"}[0]{"textlines"}[0]{"size"} = 16;
-	$pageConverter->{"pageList"}[1]{"content"}[0]{"textlines"}[0]{"space"} = 1;
-	$pageConverter->{"pageList"}[1]{"content"}[0]{"textlines"}[0]{"text"} = "this is a text block";
-	$pageConverter->{"pageList"}[1]{"content"}[0]{"textlines"}[1]{"x"} = 50;
-	$pageConverter->{"pageList"}[1]{"content"}[0]{"textlines"}[1]{"y"} = 125;
-	$pageConverter->{"pageList"}[1]{"content"}[0]{"textlines"}[1]{"font"} = "font1";
-	$pageConverter->{"pageList"}[1]{"content"}[0]{"textlines"}[1]{"size"} = 16;
-	$pageConverter->{"pageList"}[1]{"content"}[0]{"textlines"}[1]{"space"} = 0;
-	$pageConverter->{"pageList"}[1]{"content"}[0]{"textlines"}[1]{"text"} = "another chunk of text";
-	$pageConverter->{"pageList"}[1]{"content"}[0]{"x"} = 50;
-	$pageConverter->{"pageList"}[1]{"content"}[0]{"y"} = 100;
-	$pageConverter->{"pageList"}[1]{"content"}[0]{"width"} = 150;
-	$pageConverter->{"pageList"}[1]{"content"}[0]{"type"} = "running-text";
-	$pageConverter->{"pageList"}[1]{"content"}[1]{"textlines"}[0]{"x"} = 50;
-	$pageConverter->{"pageList"}[1]{"content"}[1]{"textlines"}[0]{"y"} = 100;
-	$pageConverter->{"pageList"}[1]{"content"}[1]{"textlines"}[0]{"font"} = "font1";
-	$pageConverter->{"pageList"}[1]{"content"}[1]{"textlines"}[0]{"size"} = 16;
-	$pageConverter->{"pageList"}[1]{"content"}[1]{"textlines"}[0]{"space"} = 1;
-	$pageConverter->{"pageList"}[1]{"content"}[1]{"textlines"}[0]{"text"} = "this is a text block";
-	$pageConverter->{"pageList"}[1]{"content"}[1]{"textlines"}[1]{"x"} = 50;
-	$pageConverter->{"pageList"}[1]{"content"}[1]{"textlines"}[1]{"y"} = 125;
-	$pageConverter->{"pageList"}[1]{"content"}[1]{"textlines"}[1]{"font"} = "font1";
-	$pageConverter->{"pageList"}[1]{"content"}[1]{"textlines"}[1]{"size"} = 16;
-	$pageConverter->{"pageList"}[1]{"content"}[1]{"textlines"}[1]{"space"} = 0;
-	$pageConverter->{"pageList"}[1]{"content"}[1]{"textlines"}[1]{"text"} = "another chunk of text";
-	$pageConverter->{"pageList"}[1]{"content"}[1]{"x"} = 50;
-	$pageConverter->{"pageList"}[1]{"content"}[1]{"y"} = 100;
-	$pageConverter->{"pageList"}[1]{"content"}[1]{"width"} = 150;
-	$pageConverter->{"pageList"}[1]{"content"}[1]{"type"} = "running-text";
-
-	$pageConverter->{"fontLookup"}{"font1"} = "TimesRoman";
-	$pageConverter->{"fontLookup"}{"font2"} = "HelveticaOblique";
-	return $pageConverter;
 }
