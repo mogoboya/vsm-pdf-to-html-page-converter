@@ -1,0 +1,136 @@
+* {
+	box-sizing:border-box;
+}
+
+#bg-image {
+	width:100%;
+}
+
+#main_container_inner {
+	width: 100%;
+	margin: 0 auto;
+}
+
+#block-0-line-0 {position: absolute;left: 371.5px;top: 226.4px;font-size: 13.0px;font-family: 'HelveticaNeueLTStd-Blk';}
+#block-1-line-0 {position: absolute;left: 414.6px;top: 226.4px;font-size: 13.0px;font-family: 'HelveticaNeueLTStd-Blk';}
+#block-2-line-0 {position: absolute;left: 489.5px;top: 226.4px;font-size: 13.0px;font-family: 'HelveticaNeueLTStd-Blk';}
+#block-3-line-0 {position: absolute;left: 544.3px;top: 226.4px;font-size: 13.0px;font-family: 'HelveticaNeueLTStd-Blk';}
+#block-4-line-0 {position: absolute;left: 371.5px;top: 243.1px;font-size: 22.0px;font-family: 'HelveticaNeueLTStd-Blk';}
+#block-5-line-0 {position: absolute;left: 449.7px;top: 243.1px;font-size: 22.0px;font-family: 'HelveticaNeueLTStd-Blk';}
+#block-6-line-0 {position: absolute;left: 371.5px;top: 279.8px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-7-line-0 {position: absolute;left: 391.1px;top: 279.8px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Bd';}
+#block-8-line-0 {position: absolute;left: 425.8px;top: 279.8px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Bd';}
+#block-9-line-0 {position: absolute;left: 460.1px;top: 279.8px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Bd';}
+#block-10-line-0 {position: absolute;left: 490.1px;top: 279.8px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-11-line-0 {position: absolute;left: 510.8px;top: 279.8px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-12-line-0 {position: absolute;left: 544.8px;top: 279.8px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-13-line-0 {position: absolute;left: 371.5px;top: 292.8px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-14-line-0 {position: absolute;left: 397.4px;top: 292.8px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-15-line-0 {position: absolute;left: 410.8px;top: 292.8px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-16-line-0 {position: absolute;left: 427.5px;top: 292.8px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-17-line-0 {position: absolute;left: 450.5px;top: 292.8px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-18-line-0 {position: absolute;left: 502.8px;top: 292.8px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-19-line-0 {position: absolute;left: 371.5px;top: 305.8px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-20-line-0 {position: absolute;left: 400.9px;top: 305.8px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-21-line-0 {position: absolute;left: 409.0px;top: 305.8px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-22-line-0 {position: absolute;left: 455.4px;top: 305.8px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-23-line-0 {position: absolute;left: 493.2px;top: 305.8px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-24-line-0 {position: absolute;left: 371.5px;top: 318.7px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-25-line-0 {position: absolute;left: 419.9px;top: 318.7px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-26-line-0 {position: absolute;left: 459.7px;top: 318.7px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-27-line-0 {position: absolute;left: 480.7px;top: 318.7px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-28-line-0 {position: absolute;left: 488.9px;top: 318.7px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-29-line-0 {position: absolute;left: 532.5px;top: 318.7px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-30-line-0 {position: absolute;left: 371.5px;top: 331.7px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-31-line-0 {position: absolute;left: 386.2px;top: 331.7px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-32-line-0 {position: absolute;left: 440.1px;top: 331.7px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-33-line-0 {position: absolute;left: 459.8px;top: 331.7px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-34-line-0 {position: absolute;left: 524.5px;top: 331.7px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-35-line-0 {position: absolute;left: 371.5px;top: 344.7px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-36-line-0 {position: absolute;left: 391.1px;top: 344.7px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-37-line-0 {position: absolute;left: 452.2px;top: 344.7px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-38-line-0 {position: absolute;left: 495.8px;top: 344.7px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-39-line-0 {position: absolute;left: 519.4px;top: 344.7px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-40-line-0 {position: absolute;left: 371.5px;top: 357.7px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-41-line-0 {position: absolute;left: 419.0px;top: 357.7px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-42-line-0 {position: absolute;left: 452.1px;top: 357.7px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-43-line-0 {position: absolute;left: 487.4px;top: 357.7px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-44-line-0 {position: absolute;left: 526.2px;top: 357.7px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-45-line-0 {position: absolute;left: 371.5px;top: 370.7px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-46-line-0 {position: absolute;left: 371.5px;top: 397.2px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-47-line-0 {position: absolute;left: 391.1px;top: 397.2px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-48-line-0 {position: absolute;left: 408.3px;top: 397.2px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-49-line-0 {position: absolute;left: 423.1px;top: 397.2px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-50-line-0 {position: absolute;left: 466.8px;top: 397.2px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-51-line-0 {position: absolute;left: 477.0px;top: 397.2px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-52-line-0 {position: absolute;left: 493.8px;top: 397.2px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-53-line-0 {position: absolute;left: 519.6px;top: 397.2px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-54-line-0 {position: absolute;left: 371.5px;top: 410.2px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-55-line-0 {position: absolute;left: 388.3px;top: 410.2px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-56-line-0 {position: absolute;left: 414.0px;top: 410.2px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-57-line-0 {position: absolute;left: 445.6px;top: 410.2px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-58-line-0 {position: absolute;left: 473.4px;top: 410.2px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-59-line-0 {position: absolute;left: 517.1px;top: 410.2px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-60-line-0 {position: absolute;left: 527.4px;top: 410.2px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-61-line-0 {position: absolute;left: 544.2px;top: 410.2px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-62-line-0 {position: absolute;left: 371.5px;top: 423.2px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-63-line-0 {position: absolute;left: 385.6px;top: 423.2px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-64-line-0 {position: absolute;left: 420.0px;top: 423.2px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-65-line-0 {position: absolute;left: 447.2px;top: 423.2px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-66-line-0 {position: absolute;left: 471.5px;top: 423.2px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-67-line-0 {position: absolute;left: 499.9px;top: 423.2px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-68-line-0 {position: absolute;left: 528.6px;top: 423.2px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-69-line-0 {position: absolute;left: 371.5px;top: 436.2px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-70-line-0 {position: absolute;left: 402.7px;top: 436.2px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-71-line-0 {position: absolute;left: 431.6px;top: 436.2px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-72-line-0 {position: absolute;left: 448.4px;top: 436.2px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-73-line-0 {position: absolute;left: 498.5px;top: 436.2px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-74-line-0 {position: absolute;left: 526.9px;top: 436.2px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-75-line-0 {position: absolute;left: 371.5px;top: 449.2px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-76-line-0 {position: absolute;left: 400.1px;top: 449.2px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-77-line-0 {position: absolute;left: 419.8px;top: 449.2px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-78-line-0 {position: absolute;left: 448.2px;top: 449.2px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-79-line-0 {position: absolute;left: 371.5px;top: 475.8px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Bd';}
+#block-80-line-0 {position: absolute;left: 383.5px;top: 475.7px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-81-line-0 {position: absolute;left: 412.8px;top: 475.7px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-82-line-0 {position: absolute;left: 371.5px;top: 497.8px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Bd';}
+#block-83-line-0 {position: absolute;left: 383.5px;top: 497.7px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-84-line-0 {position: absolute;left: 433.5px;top: 497.7px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-85-line-0 {position: absolute;left: 371.5px;top: 519.8px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Bd';}
+#block-86-line-0 {position: absolute;left: 383.5px;top: 519.7px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-87-line-0 {position: absolute;left: 371.5px;top: 541.7px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Bd';}
+#block-88-line-0 {position: absolute;left: 383.5px;top: 541.7px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-89-line-0 {position: absolute;left: 371.5px;top: 563.7px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Bd';}
+#block-90-line-0 {position: absolute;left: 383.5px;top: 563.7px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-91-line-0 {position: absolute;left: 371.5px;top: 585.7px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Bd';}
+#block-92-line-0 {position: absolute;left: 383.5px;top: 585.7px;font-size: 10.3px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-93-line-0 {position: absolute;left: 371.6px;top: 609.3px;font-size: 7.0px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-94-line-0 {position: absolute;left: 397.6px;top: 609.3px;font-size: 7.0px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-95-line-0 {position: absolute;left: 288.9px;top: 660.6px;font-size: 9.0px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-96-line-0 {position: absolute;left: 302.0px;top: 660.6px;font-size: 9.0px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-97-line-0 {position: absolute;left: 330.1px;top: 660.6px;font-size: 9.0px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-98-line-0 {position: absolute;left: 288.9px;top: 671.6px;font-size: 9.0px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-99-line-0 {position: absolute;left: 320.4px;top: 671.6px;font-size: 9.0px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-100-line-0 {position: absolute;left: 347.6px;top: 671.6px;font-size: 9.0px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-101-line-0 {position: absolute;left: 360.3px;top: 671.6px;font-size: 9.0px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-102-line-0 {position: absolute;left: 288.9px;top: 682.6px;font-size: 9.0px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-103-line-0 {position: absolute;left: 316.4px;top: 682.6px;font-size: 9.0px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-104-line-0 {position: absolute;left: 350.7px;top: 682.6px;font-size: 9.0px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-105-line-0 {position: absolute;left: 288.9px;top: 693.6px;font-size: 9.0px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-106-line-0 {position: absolute;left: 311.5px;top: 693.6px;font-size: 9.0px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-107-line-0 {position: absolute;left: 323.9px;top: 693.6px;font-size: 9.0px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-108-line-0 {position: absolute;left: 333.0px;top: 693.6px;font-size: 9.0px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-109-line-0 {position: absolute;left: 347.8px;top: 693.6px;font-size: 9.0px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-110-line-0 {position: absolute;left: 288.9px;top: 704.6px;font-size: 9.0px;font-family: 'HelveticaNeueLTStd-Bd';}
+#block-111-line-0 {position: absolute;left: 319.5px;top: 704.6px;font-size: 9.0px;font-family: 'HelveticaNeueLTStd-Bd';}
+#block-112-line-0 {position: absolute;left: 349.9px;top: 704.6px;font-size: 9.0px;font-family: 'HelveticaNeueLTStd-Bd';}
+#block-113-line-0 {position: absolute;left: 288.9px;top: 715.6px;font-size: 9.0px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-114-line-0 {position: absolute;left: 303.7px;top: 715.6px;font-size: 9.0px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-115-line-0 {position: absolute;left: 364.2px;top: 715.6px;font-size: 9.0px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-116-line-0 {position: absolute;left: 288.9px;top: 726.6px;font-size: 9.0px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-117-line-0 {position: absolute;left: 315.4px;top: 726.6px;font-size: 9.0px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-118-line-0 {position: absolute;left: 324.4px;top: 726.6px;font-size: 9.0px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-119-line-0 {position: absolute;left: 341.9px;top: 726.6px;font-size: 9.0px;font-family: 'HelveticaNeueLTStd-Lt';}
+#block-120-line-0 {position: absolute;left: 511.9px;top: 753.1px;font-size: 7.0px;font-family: 'HelveticaNeueLTStd-Roman';}
+#block-121-line-0 {position: absolute;left: 570.4px;top: 752.5px;font-size: 7.0px;font-family: 'HelveticaNeueLTStd-Roman';}
+#block-122-line-0 {position: absolute;left: 579.3px;top: 750px;font-size: 9.0px;font-family: 'GalliardStd-Black';}
