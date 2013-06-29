@@ -5,11 +5,12 @@ use Data::Dumper;
 use File::Copy::Recursive qw(rcopy);
 use File::Copy;
 use JSON;
+use XML::LibXML;
 
 # Set inputs.  PDF name, output directory, template page file, etc.
-my $processDir = "sample-book";
-my $pdf = $processDir ."/sample-book.pdf";
-my $pdfbg = $processDir ."/sample-book-bg.pdf";
+my $processDir = "sample-book2";
+my $pdf = $processDir ."/merged_r.pdf";
+my $pdfbg = $processDir ."/merged_bg.pdf";
 my $outputDir = $processDir ."/output";
 my $pageTemplate = "page-template";
 my $bookTemplate = "book-template";
@@ -71,7 +72,7 @@ while ($i < $numPages) {
 	$i++;
 }
 ## Fontlist w/ all fonts found in all XPDFS
-# examineHashRef($pageConverter);
+examineHashRef($pageConverter);
 
 # For full PDF
 ## Extract all fonts to .ttf or .otf files using a command-line utility (TBD)

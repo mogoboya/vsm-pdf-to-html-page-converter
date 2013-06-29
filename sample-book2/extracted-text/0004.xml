@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page width="612.0" height="783.0">
+<flow xMin="32.0" xMax="98.6" yMin="44.0" yMax="52.3" priMin="0.0" priMax="135.0">
+	<block rot="0" xMin="32.0" xMax="98.6" yMin="44.0" yMax="52.3" priMin="0.0" priMax="135.0">
+		<line>
+			<word xMin="32.0" xMax="84.7" yMin="44.0" yMax="52.3" base="50.4" space="1" fontName="MFPHFK+HelveticaNeueLTStd-Ex" fontSize="9.0" charEdges="32.0,39.9,48.6,57.1,65.5,75.9"><![CDATA[LESSON]]></word>
+			<word xMin="90.7" xMax="98.6" yMin="44.0" yMax="52.3" base="50.4" space="0" fontName="MFPHFK+HelveticaNeueLTStd-Ex" fontSize="9.0" charEdges="90.7"><![CDATA[A]]></word>
+		</line>
+	</block>
+</flow>
+<flow xMin="135.0" xMax="559.5" yMin="43.7" yMax="404.3" priMin="98.6" priMax="612.0">
+	<block rot="0" xMin="135.0" xMax="352.6" yMin="43.7" yMax="56.7" priMin="98.6" priMax="612.0">
+		<line>
+			<word xMin="135.0" xMax="146.6" yMin="43.7" yMax="56.7" base="53.7" space="1" fontName="MFPHFK+HelveticaNeueLTStd-Ex" fontSize="14.0" charEdges="135.0"><![CDATA[P]]></word>
+			<word xMin="148.3" xMax="160.5" yMin="43.7" yMax="56.7" base="53.7" space="1" fontName="MFPHFK+HelveticaNeueLTStd-Ex" fontSize="14.0" charEdges="148.3"><![CDATA[R]]></word>
+			<word xMin="162.7" xMax="174.0" yMin="43.7" yMax="56.7" base="53.7" space="1" fontName="MFPHFK+HelveticaNeueLTStd-Ex" fontSize="14.0" charEdges="162.7"><![CDATA[E]]></word>
+			<word xMin="175.9" xMax="200.5" yMin="43.7" yMax="56.7" base="53.7" space="1" fontName="MFPHFK+HelveticaNeueLTStd-Ex" fontSize="14.0" charEdges="175.9,188.3"><![CDATA[PA]]></word>
+			<word xMin="202.6" xMax="214.8" yMin="43.7" yMax="56.7" base="53.7" space="1" fontName="MFPHFK+HelveticaNeueLTStd-Ex" fontSize="14.0" charEdges="202.6"><![CDATA[R]]></word>
+			<word xMin="216.8" xMax="221.3" yMin="43.7" yMax="56.7" base="53.7" space="1" fontName="MFPHFK+HelveticaNeueLTStd-Ex" fontSize="14.0" charEdges="216.8"><![CDATA[I]]></word>
+			<word xMin="223.1" xMax="236.9" yMin="43.7" yMax="56.7" base="53.7" space="1" fontName="MFPHFK+HelveticaNeueLTStd-Ex" fontSize="14.0" charEdges="223.1"><![CDATA[N]]></word>
+			<word xMin="238.7" xMax="252.7" yMin="43.7" yMax="56.7" base="53.7" space="1" fontName="MFPHFK+HelveticaNeueLTStd-Ex" fontSize="14.0" charEdges="238.7"><![CDATA[G]]></word>
+			<word xMin="262.2" xMax="272.6" yMin="43.7" yMax="56.7" base="53.7" space="1" fontName="MFPHFK+HelveticaNeueLTStd-Ex" fontSize="14.0" charEdges="262.2"><![CDATA[T]]></word>
+			<word xMin="274.2" xMax="288.2" yMin="43.7" yMax="56.7" base="53.7" space="1" fontName="MFPHFK+HelveticaNeueLTStd-Ex" fontSize="14.0" charEdges="274.2"><![CDATA[O]]></word>
+			<word xMin="297.6" xMax="309.8" yMin="43.7" yMax="56.7" base="53.7" space="1" fontName="MFPHFK+HelveticaNeueLTStd-Ex" fontSize="14.0" charEdges="297.6"><![CDATA[R]]></word>
+			<word xMin="312.0" xMax="323.3" yMin="43.7" yMax="56.7" base="53.7" space="1" fontName="MFPHFK+HelveticaNeueLTStd-Ex" fontSize="14.0" charEdges="312.0"><![CDATA[E]]></word>
+			<word xMin="325.6" xMax="337.8" yMin="43.7" yMax="56.7" base="53.7" space="1" fontName="MFPHFK+HelveticaNeueLTStd-Ex" fontSize="14.0" charEdges="325.6"><![CDATA[A]]></word>
+			<word xMin="339.8" xMax="352.6" yMin="43.7" yMax="56.7" base="53.7" space="0" fontName="MFPHFK+HelveticaNeueLTStd-Ex" fontSize="14.0" charEdges="339.8"><![CDATA[D]]></word>
+		</line>
+	</block>
+	<block rot="0" xMin="135.0" xMax="559.5" yMin="84.0" yMax="120.5" priMin="0.0" priMax="612.0">
+		<line>
+			<word xMin="135.0" xMax="142.0" yMin="84.0" yMax="93.5" base="91.4" space="1" fontName="MFPHLO+HelveticaNeueLTStd-Bd" fontSize="10.3" charEdges="135.0"><![CDATA[A]]></word>
+			<word xMin="148.5" xMax="150.8" yMin="84.0" yMax="93.5" base="91.4" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="148.5"><![CDATA[|]]></word>
+			<word xMin="157.5" xMax="198.3" yMin="84.0" yMax="93.5" base="91.4" space="1" fontName="MFPHLO+HelveticaNeueLTStd-Bd" fontSize="10.3" charEdges="157.5,164.9,171.1,173.9,176.6,183.0,185.8,192.1"><![CDATA[Building]]></word>
+			<word xMin="201.2" xMax="259.4" yMin="84.0" yMax="93.5" base="91.4" space="1" fontName="MFPHLO+HelveticaNeueLTStd-Bd" fontSize="10.3" charEdges="201.2,207.3,213.6,219.7,225.7,232.1,238.3,241.1,247.1,251.6,256.6"><![CDATA[Vocabulary.]]></word>
+			<word xMin="262.3" xMax="281.1" yMin="84.0" yMax="93.5" base="91.4" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="262.3,267.8,269.7,275.2"><![CDATA[Find]]></word>
+			<word xMin="284.0" xMax="297.9" yMin="84.0" yMax="93.5" base="91.4" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="284.0,287.0,292.6"><![CDATA[the]]></word>
+			<word xMin="300.7" xMax="328.0" yMin="84.0" yMax="93.5" base="91.4" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="300.7,308.2,314.0,317.2,323.1"><![CDATA[words]]></word>
+			<word xMin="330.9" xMax="338.3" yMin="84.0" yMax="93.5" base="91.4" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="330.9,332.8"><![CDATA[in]]></word>
+			<word xMin="341.2" xMax="362.5" yMin="84.0" yMax="93.5" base="91.4" space="1" fontName="MFPHLO+HelveticaNeueLTStd-Bd" fontSize="10.3" charEdges="341.2,347.6,350.4,356.6"><![CDATA[blue]]></word>
+			<word xMin="365.4" xMax="372.8" yMin="84.0" yMax="93.5" base="91.4" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="365.4,367.3"><![CDATA[in]]></word>
+			<word xMin="375.7" xMax="389.5" yMin="84.0" yMax="93.5" base="91.4" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="375.7,378.7,384.2"><![CDATA[the]]></word>
+			<word xMin="392.4" xMax="425.4" yMin="84.0" yMax="93.5" base="91.4" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="392.4,395.6,401.1,406.4,412.3,414.2,419.7"><![CDATA[reading]]></word>
+			<word xMin="428.2" xMax="465.9" yMin="84.0" yMax="93.5" base="91.4" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="428.2,434.1,439.5,444.5,449.5,454.8,460.6"><![CDATA[passage]]></word>
+			<word xMin="468.8" xMax="480.0" yMin="84.0" yMax="93.5" base="91.4" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="468.8,474.5"><![CDATA[on]]></word>
+			<word xMin="482.9" xMax="510.2" yMin="84.0" yMax="93.5" base="91.4" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="482.9,488.7,494.1,499.8,505.3"><![CDATA[pages]]></word>
+			<word xMin="513.0" xMax="533.2" yMin="84.0" yMax="93.5" base="91.4" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="513.0,519.1,524.7,530.3"><![CDATA[5–6.]]></word>
+			<word xMin="536.0" xMax="559.5" yMin="84.0" yMax="93.5" base="91.4" space="0" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="536.0,542.9,548.3,553.6"><![CDATA[Read]]></word>
+		</line>
+		<line>
+			<word xMin="157.5" xMax="171.4" yMin="97.5" yMax="107.0" base="104.9" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="157.5,160.5,166.1"><![CDATA[the]]></word>
+			<word xMin="174.3" xMax="201.6" yMin="97.5" yMax="107.0" base="104.9" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="174.3,181.8,187.5,190.7,196.6"><![CDATA[words]]></word>
+			<word xMin="204.4" xMax="235.6" yMin="97.5" yMax="107.0" base="104.9" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="204.4,209.8,213.0,218.7,224.3,229.8"><![CDATA[around]]></word>
+			<word xMin="238.5" xMax="261.1" yMin="97.5" yMax="107.0" base="104.9" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="238.5,241.5,247.1,252.5"><![CDATA[them]]></word>
+			<word xMin="263.9" xMax="280.8" yMin="97.5" yMax="107.0" base="104.9" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="263.9,269.3,274.9"><![CDATA[and]]></word>
+			<word xMin="283.6" xMax="295.0" yMin="97.5" yMax="107.0" base="104.9" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="283.6,286.6,290.3"><![CDATA[try]]></word>
+			<word xMin="297.9" xMax="306.4" yMin="97.5" yMax="107.0" base="104.9" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="297.9,300.7"><![CDATA[to]]></word>
+			<word xMin="309.2" xMax="335.9" yMin="97.5" yMax="107.0" base="104.9" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="309.2,314.9,320.5,325.9,331.0"><![CDATA[guess]]></word>
+			<word xMin="338.8" xMax="357.9" yMin="97.5" yMax="107.0" base="104.9" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="338.8,341.8,347.4,352.8,354.7"><![CDATA[their]]></word>
+			<word xMin="360.8" xMax="406.6" yMin="97.5" yMax="107.0" base="104.9" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="360.8,369.4,374.8,380.2,385.8,387.7,393.2,398.9,403.7"><![CDATA[meanings.]]></word>
+			<word xMin="409.4" xMax="431.8" yMin="97.5" yMax="107.0" base="104.9" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="409.4,415.3,420.8,426.3"><![CDATA[Then]]></word>
+			<word xMin="434.6" xMax="455.7" yMin="97.5" yMax="107.0" base="104.9" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="434.6,442.3,445.6,447.5,450.4"><![CDATA[write]]></word>
+			<word xMin="458.5" xMax="472.5" yMin="97.5" yMax="107.0" base="104.9" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="458.5,461.6,467.1"><![CDATA[the]]></word>
+			<word xMin="475.3" xMax="506.8" yMin="97.5" yMax="107.0" base="104.9" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="475.3,480.7,486.5,489.8,493.0,498.4,503.8"><![CDATA[correct]]></word>
+			<word xMin="509.7" xMax="532.0" yMin="97.5" yMax="107.0" base="104.9" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="509.7,517.2,522.9,526.1"><![CDATA[word]]></word>
+			<word xMin="534.8" xMax="543.8" yMin="97.5" yMax="107.0" base="104.9" space="0" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="534.8,540.5"><![CDATA[or]]></word>
+		</line>
+		<line>
+			<word xMin="157.5" xMax="187.7" yMin="111.0" yMax="120.5" base="118.4" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="157.5,163.4,168.9,172.2,177.5,182.4"><![CDATA[phrase]]></word>
+			<word xMin="190.6" xMax="210.8" yMin="111.0" yMax="120.5" base="118.4" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="190.6,193.4,196.5,202.2"><![CDATA[from]]></word>
+			<word xMin="213.6" xMax="227.5" yMin="111.0" yMax="120.5" base="118.4" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="213.6,216.7,222.2"><![CDATA[the]]></word>
+			<word xMin="230.4" xMax="246.7" yMin="111.0" yMax="120.5" base="118.4" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="230.4,236.3,241.8"><![CDATA[box]]></word>
+			<word xMin="249.6" xMax="258.1" yMin="111.0" yMax="120.5" base="118.4" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="249.6,252.4"><![CDATA[to]]></word>
+			<word xMin="260.9" xMax="301.9" yMin="111.0" yMax="120.5" base="118.4" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="260.9,266.3,272.1,280.6,286.5,288.4,293.8,296.6"><![CDATA[complete]]></word>
+			<word xMin="304.8" xMax="326.4" yMin="111.0" yMax="120.5" base="118.4" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="304.8,310.2,315.5,320.9"><![CDATA[each]]></word>
+			<word xMin="329.3" xMax="369.7" yMin="111.0" yMax="120.5" base="118.4" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="329.3,334.2,339.6,345.1,348.0,353.4,359.0,364.4"><![CDATA[sentence]]></word>
+			<word xMin="372.5" xMax="400.1" yMin="111.0" yMax="120.5" base="118.4" space="0" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="372.5,374.5,379.9,384.3,389.5,395.2,397.3"><![CDATA[(1–10).]]></word>
+		</line>
+	</block>
+	<block rot="0" xMin="172.5" xMax="210.1" yMin="144.9" yMax="168.4" priMin="0.0" priMax="223.5">
+		<line>
+			<word xMin="172.5" xMax="207.6" yMin="144.9" yMax="154.4" base="152.3" space="0" fontName="MFPHLO+HelveticaNeueLTStd-Bd" fontSize="10.3" charEdges="172.5,178.5,184.5,190.5,196.5,202.1"><![CDATA[access]]></word>
+		</line>
+		<line>
+			<word xMin="172.5" xMax="210.1" yMin="158.9" yMax="168.4" base="166.3" space="0" fontName="MFPHLO+HelveticaNeueLTStd-Bd" fontSize="10.3" charEdges="172.5,178.9,185.1,190.4,196.4,200.8,204.8"><![CDATA[poverty]]></word>
+		</line>
+	</block>
+	<block rot="0" xMin="163.2" xMax="222.9" yMin="192.0" yMax="201.8" priMin="0.0" priMax="350.4">
+		<line>
+			<word xMin="163.2" xMax="171.0" yMin="192.0" yMax="201.5" base="199.4" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="163.2,168.2"><![CDATA[1.]]></word>
+			<word xMin="178.0" xMax="204.1" yMin="192.0" yMax="201.8" base="199.4" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="178.0,188.1,193.7,198.4"><![CDATA[When]]></word>
+			<word xMin="207.0" xMax="222.9" yMin="192.0" yMax="201.8" base="199.4" space="0" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="207.0,211.5,217.2"><![CDATA[you]]></word>
+		</line>
+	</block>
+	<block rot="0" xMin="162.9" xMax="278.4" yMin="210.0" yMax="233.3" priMin="0.0" priMax="408.7">
+		<line>
+			<word xMin="162.9" xMax="171.0" yMin="210.0" yMax="219.5" base="217.4" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="162.9,168.2"><![CDATA[2.]]></word>
+			<word xMin="178.0" xMax="185.0" yMin="210.0" yMax="219.8" base="217.4" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="178.0"><![CDATA[A]]></word>
+			<word xMin="187.9" xMax="222.3" yMin="210.0" yMax="219.8" base="217.4" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="187.9,192.3,198.0,204.0,209.6,213.4,217.5"><![CDATA[country]]></word>
+			<word xMin="225.1" xMax="244.9" yMin="210.0" yMax="219.8" base="217.4" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="225.1,232.9,235.4,239.2"><![CDATA[with]]></word>
+			<word xMin="247.8" xMax="252.3" yMin="210.0" yMax="219.8" base="217.4" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="247.8"><![CDATA[a]]></word>
+			<word xMin="255.2" xMax="266.9" yMin="210.0" yMax="219.8" base="217.4" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="255.2,257.7,263.4"><![CDATA[lot]]></word>
+			<word xMin="269.7" xMax="278.4" yMin="210.0" yMax="219.8" base="217.4" space="0" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="269.7,275.4"><![CDATA[of]]></word>
+		</line>
+		<line>
+			<word xMin="178.0" xMax="197.4" yMin="223.5" yMax="233.3" base="230.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="178.0,183.8,188.1,192.7"><![CDATA[have]]></word>
+			<word xMin="200.3" xMax="231.7" yMin="223.5" yMax="233.3" base="230.9" space="0" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="200.3,208.8,214.4,220.1,224.8,228.9"><![CDATA[money.]]></word>
+		</line>
+	</block>
+	<block rot="0" xMin="162.6" xMax="226.5" yMin="241.5" yMax="251.3" priMin="0.0" priMax="356.8">
+		<line>
+			<word xMin="162.6" xMax="171.0" yMin="241.5" yMax="251.0" base="248.9" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="162.6,168.2"><![CDATA[3.]]></word>
+			<word xMin="178.0" xMax="185.4" yMin="241.5" yMax="251.3" base="248.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="178.0,182.4"><![CDATA[If]]></word>
+			<word xMin="188.3" xMax="204.3" yMin="241.5" yMax="251.3" base="248.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="188.3,192.9,198.5"><![CDATA[you]]></word>
+			<word xMin="207.1" xMax="226.5" yMin="241.5" yMax="251.3" base="248.9" space="0" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="207.1,212.9,217.3,221.8"><![CDATA[have]]></word>
+		</line>
+	</block>
+	<block rot="0" xMin="162.7" xMax="268.7" yMin="259.5" yMax="269.3" priMin="0.0" priMax="396.3">
+		<line>
+			<word xMin="162.7" xMax="171.0" yMin="259.5" yMax="269.0" base="266.9" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="162.7,168.2"><![CDATA[4.]]></word>
+			<word xMin="178.0" xMax="185.4" yMin="259.5" yMax="269.3" base="266.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="178.0,182.3"><![CDATA[If]]></word>
+			<word xMin="188.3" xMax="204.2" yMin="259.5" yMax="269.3" base="266.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="188.3,192.8,198.5"><![CDATA[you]]></word>
+			<word xMin="207.1" xMax="226.4" yMin="259.5" yMax="269.3" base="266.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="207.1,212.8,217.2,221.7"><![CDATA[have]]></word>
+			<word xMin="229.3" xMax="268.7" yMin="259.5" yMax="269.3" base="266.9" space="0" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="229.3,233.7,239.4,248.0,253.4,256.0,260.6,264.0"><![CDATA[complete]]></word>
+		</line>
+	</block>
+	<block rot="0" xMin="162.6" xMax="248.0" yMin="277.5" yMax="287.3" priMin="0.0" priMax="378.3">
+		<line>
+			<word xMin="162.6" xMax="171.0" yMin="277.5" yMax="287.0" base="284.9" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="162.6,168.1"><![CDATA[5.]]></word>
+			<word xMin="178.0" xMax="185.4" yMin="277.5" yMax="287.3" base="284.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="178.0,182.3"><![CDATA[If]]></word>
+			<word xMin="188.3" xMax="192.8" yMin="277.5" yMax="287.3" base="284.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="188.3"><![CDATA[a]]></word>
+			<word xMin="195.7" xMax="248.0" yMin="277.5" yMax="287.3" base="284.9" space="0" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="195.7,201.1,206.7,211.3,216.0,219.8,225.8,234.3,239.0,244.5"><![CDATA[government]]></word>
+		</line>
+	</block>
+	<block rot="0" xMin="162.6" xMax="256.7" yMin="295.5" yMax="305.3" priMin="0.0" priMax="384.2">
+		<line>
+			<word xMin="162.6" xMax="171.0" yMin="295.5" yMax="305.0" base="302.9" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="162.6,168.2"><![CDATA[6.]]></word>
+			<word xMin="178.0" xMax="185.4" yMin="295.5" yMax="305.3" base="302.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="178.0,182.3"><![CDATA[If]]></word>
+			<word xMin="188.3" xMax="204.2" yMin="295.5" yMax="305.3" base="302.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="188.3,192.8,198.5"><![CDATA[you]]></word>
+			<word xMin="207.1" xMax="226.4" yMin="295.5" yMax="305.3" base="302.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="207.1,212.8,217.2,221.7"><![CDATA[have]]></word>
+			<word xMin="229.3" xMax="233.8" yMin="295.5" yMax="305.3" base="302.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="229.3"><![CDATA[a]]></word>
+			<word xMin="236.7" xMax="256.7" yMin="295.5" yMax="305.3" base="302.9" space="0" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="236.7,242.7,245.2,250.9"><![CDATA[high]]></word>
+		</line>
+	</block>
+	<block rot="0" xMin="163.8" xMax="260.4" yMin="313.5" yMax="323.3" priMin="0.0" priMax="390.8">
+		<line>
+			<word xMin="163.8" xMax="171.0" yMin="313.5" yMax="323.0" base="320.9" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="163.8,168.2"><![CDATA[7.]]></word>
+			<word xMin="178.0" xMax="185.4" yMin="313.5" yMax="323.3" base="320.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="178.0,182.3"><![CDATA[If]]></word>
+			<word xMin="188.3" xMax="204.2" yMin="313.5" yMax="323.3" base="320.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="188.3,192.8,198.5"><![CDATA[you]]></word>
+			<word xMin="207.1" xMax="237.6" yMin="313.5" yMax="323.3" base="320.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="207.1,213.2,215.9,219.6,224.3,230.1,233.9"><![CDATA[discuss]]></word>
+			<word xMin="240.5" xMax="260.4" yMin="313.5" yMax="323.3" base="320.9" space="0" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="240.5,245.1,250.7,256.7"><![CDATA[your]]></word>
+		</line>
+	</block>
+	<block rot="0" xMin="162.5" xMax="247.9" yMin="331.5" yMax="354.8" priMin="0.0" priMax="347.7">
+		<line>
+			<word xMin="162.5" xMax="171.0" yMin="331.5" yMax="341.0" base="338.9" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="162.5,168.1"><![CDATA[8.]]></word>
+			<word xMin="178.0" xMax="185.4" yMin="331.5" yMax="341.3" base="338.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="178.0,182.3"><![CDATA[If]]></word>
+			<word xMin="188.3" xMax="204.2" yMin="331.5" yMax="341.3" base="338.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="188.3,192.8,198.5"><![CDATA[you]]></word>
+			<word xMin="207.1" xMax="220.3" yMin="331.5" yMax="341.3" base="338.9" space="0" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="207.1,211.9,215.6"><![CDATA[are]]></word>
+		</line>
+		<line>
+			<word xMin="178.0" xMax="203.0" yMin="345.0" yMax="354.8" base="352.4" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="178.0,182.4,188.2,193.9,199.5"><![CDATA[about]]></word>
+			<word xMin="205.8" xMax="247.9" yMin="345.0" yMax="354.8" base="352.4" space="0" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="205.8,210.7,216.3,221.3,225.1,231.2,234.1,239.7,245.1"><![CDATA[anything.]]></word>
+		</line>
+	</block>
+	<block rot="0" xMin="162.7" xMax="243.6" yMin="363.0" yMax="386.3" priMin="0.0" priMax="370.9">
+		<line>
+			<word xMin="162.7" xMax="171.0" yMin="363.0" yMax="372.5" base="370.4" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="162.7,168.2"><![CDATA[9.]]></word>
+			<word xMin="178.0" xMax="185.4" yMin="363.0" yMax="372.8" base="370.4" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="178.0,182.4"><![CDATA[If]]></word>
+			<word xMin="188.3" xMax="204.3" yMin="363.0" yMax="372.8" base="370.4" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="188.3,192.9,198.5"><![CDATA[you]]></word>
+			<word xMin="207.1" xMax="226.5" yMin="363.0" yMax="372.8" base="370.4" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="207.1,212.9,217.3,221.8"><![CDATA[have]]></word>
+			<word xMin="229.4" xMax="243.6" yMin="363.0" yMax="372.8" base="370.4" space="0" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="229.4,233.2,238.8"><![CDATA[the]]></word>
+		</line>
+		<line>
+			<word xMin="178.0" xMax="198.3" yMin="376.5" yMax="386.3" base="383.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="178.0,181.0,186.8,192.6"><![CDATA[food]]></word>
+			<word xMin="201.2" xMax="210.3" yMin="376.5" yMax="386.3" base="383.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="201.2,204.6"><![CDATA[to]]></word>
+			<word xMin="213.2" xMax="228.7" yMin="376.5" yMax="386.3" base="383.9" space="0" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="213.2,217.9,222.3,225.9"><![CDATA[eat.]]></word>
+		</line>
+	</block>
+	<block rot="0" xMin="158.0" xMax="220.3" yMin="394.5" yMax="404.3" priMin="0.0" priMax="350.6">
+		<line>
+			<word xMin="158.0" xMax="171.5" yMin="394.5" yMax="404.0" base="401.9" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="158.0,163.1,168.7"><![CDATA[10.]]></word>
+			<word xMin="178.0" xMax="185.4" yMin="394.5" yMax="404.3" base="401.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="178.0,182.3"><![CDATA[If]]></word>
+			<word xMin="188.3" xMax="204.2" yMin="394.5" yMax="404.3" base="401.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="188.3,192.8,198.5"><![CDATA[you]]></word>
+			<word xMin="207.1" xMax="220.3" yMin="394.5" yMax="404.3" base="401.9" space="0" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="207.1,211.9,215.5"><![CDATA[are]]></word>
+		</line>
+	</block>
+	<block rot="0" xMin="223.5" xMax="309.6" yMin="144.9" yMax="168.4" priMin="210.1" priMax="324.5">
+		<line>
+			<word xMin="223.5" xMax="250.2" yMin="144.9" yMax="154.4" base="152.3" space="1" fontName="MFPHLO+HelveticaNeueLTStd-Bd" fontSize="10.3" charEdges="223.5,229.9,235.9,241.6,244.3"><![CDATA[basic]]></word>
+			<word xMin="253.1" xMax="309.6" yMin="144.9" yMax="154.4" base="152.3" space="0" fontName="MFPHLO+HelveticaNeueLTStd-Bd" fontSize="10.3" charEdges="253.1,259.3,265.3,271.3,277.3,283.0,288.6,291.4,295.3,298.0,304.1"><![CDATA[necessities]]></word>
+		</line>
+		<line>
+			<word xMin="223.5" xMax="266.4" yMin="158.9" yMax="168.4" base="166.3" space="0" fontName="MFPHLO+HelveticaNeueLTStd-Bd" fontSize="10.3" charEdges="223.5,229.9,234.0,240.2,245.7,248.5,254.9,260.9"><![CDATA[provides]]></word>
+		</line>
+	</block>
+	<block rot="0" xMin="324.5" xMax="371.8" yMin="144.9" yMax="168.4" priMin="309.6" priMax="386.5">
+		<line>
+			<word xMin="324.5" xMax="371.8" yMin="144.9" yMax="154.4" base="152.3" space="0" fontName="MFPHLO+HelveticaNeueLTStd-Bd" fontSize="10.3" charEdges="324.5,330.6,337.0,343.2,349.6,356.0,362.0,368.2"><![CDATA[confident]]></word>
+		</line>
+		<line>
+			<word xMin="324.5" xMax="358.4" yMin="158.9" yMax="168.4" base="166.3" space="0" fontName="MFPHLO+HelveticaNeueLTStd-Bd" fontSize="10.3" charEdges="324.5,330.1,336.2,342.2,348.4,352.5"><![CDATA[secure]]></word>
+		</line>
+	</block>
+	<block rot="0" xMin="386.5" xMax="430.1" yMin="144.9" yMax="168.4" priMin="371.8" priMax="443.5">
+		<line>
+			<word xMin="386.5" xMax="428.9" yMin="144.9" yMax="154.4" base="152.3" space="0" fontName="MFPHLO+HelveticaNeueLTStd-Bd" fontSize="10.3" charEdges="386.5,392.9,399.2,405.2,411.4,417.4,420.2,426.2"><![CDATA[financial]]></word>
+		</line>
+		<line>
+			<word xMin="386.5" xMax="430.1" yMin="158.9" yMax="168.4" base="166.3" space="0" fontName="MFPHLO+HelveticaNeueLTStd-Bd" fontSize="10.3" charEdges="386.5,392.1,398.4,404.5,407.3,413.3,416.1,418.8,424.2"><![CDATA[socialize]]></word>
+		</line>
+	</block>
+	<block rot="0" xMin="443.5" xMax="529.8" yMin="144.9" yMax="168.4" priMin="430.1" priMax="612.0">
+		<line>
+			<word xMin="443.5" xMax="485.3" yMin="144.9" yMax="154.4" base="152.3" space="0" fontName="MFPHLO+HelveticaNeueLTStd-Bd" fontSize="10.3" charEdges="443.5,447.1,451.2,457.2,463.2,469.6,476.0"><![CDATA[freedom]]></word>
+		</line>
+		<line>
+			<word xMin="443.5" xMax="488.1" yMin="158.9" yMax="168.4" base="166.3" space="1" fontName="MFPHLO+HelveticaNeueLTStd-Bd" fontSize="10.3" charEdges="443.5,449.2,453.0,459.0,465.2,471.7,477.7,481.8"><![CDATA[standard]]></word>
+			<word xMin="490.9" xMax="500.7" yMin="158.9" yMax="168.4" base="166.3" space="1" fontName="MFPHLO+HelveticaNeueLTStd-Bd" fontSize="10.3" charEdges="490.9,497.2"><![CDATA[of]]></word>
+			<word xMin="503.5" xMax="529.8" yMin="158.9" yMax="168.4" base="166.3" space="0" fontName="MFPHLO+HelveticaNeueLTStd-Bd" fontSize="10.3" charEdges="503.5,506.3,509.1,514.5,517.3,523.5"><![CDATA[living]]></word>
+		</line>
+	</block>
+</flow>
+<flow xMin="347.7" xMax="564.1" yMin="192.0" yMax="404.3" priMin="222.9" priMax="612.0">
+	<block rot="0" xMin="350.4" xMax="539.7" yMin="192.0" yMax="201.8" priMin="222.9" priMax="612.0">
+		<line>
+			<word xMin="350.4" xMax="353.3" yMin="192.0" yMax="201.8" base="199.4" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="350.4"><![CDATA[,]]></word>
+			<word xMin="356.1" xMax="372.1" yMin="192.0" yMax="201.8" base="199.4" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="356.1,360.7,366.3"><![CDATA[you]]></word>
+			<word xMin="374.9" xMax="400.1" yMin="192.0" yMax="201.8" base="199.4" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="374.9,378.6,384.1,388.8,394.4"><![CDATA[spend]]></word>
+			<word xMin="403.0" xMax="422.9" yMin="192.0" yMax="201.8" base="199.4" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="403.0,406.9,409.7,418.2"><![CDATA[time]]></word>
+			<word xMin="425.8" xMax="445.6" yMin="192.0" yMax="201.8" base="199.4" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="425.8,433.5,436.0,439.8"><![CDATA[with]]></word>
+			<word xMin="448.4" xMax="471.9" yMin="192.0" yMax="201.8" base="199.4" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="448.4,454.1,457.9,463.5,468.2"><![CDATA[other]]></word>
+			<word xMin="474.7" xMax="503.4" yMin="192.0" yMax="201.8" base="199.4" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="474.7,480.3,485.0,490.7,496.1,498.7"><![CDATA[people]]></word>
+			<word xMin="506.3" xMax="518.8" yMin="192.0" yMax="201.8" base="199.4" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="506.3,509.3,515.1"><![CDATA[for]]></word>
+			<word xMin="521.6" xMax="539.7" yMin="192.0" yMax="201.8" base="199.4" space="0" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="521.6,525.1,531.1,536.8"><![CDATA[fun.]]></word>
+		</line>
+	</block>
+	<block rot="0" xMin="408.7" xMax="535.4" yMin="210.0" yMax="219.8" priMin="278.4" priMax="612.0">
+		<line>
+			<word xMin="408.7" xMax="422.8" yMin="210.0" yMax="219.8" base="217.4" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="408.7,414.4,419.1"><![CDATA[has]]></word>
+			<word xMin="425.7" xMax="430.2" yMin="210.0" yMax="219.8" base="217.4" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="425.7"><![CDATA[a]]></word>
+			<word xMin="433.1" xMax="444.8" yMin="210.0" yMax="219.8" base="217.4" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="433.1,435.6,441.3"><![CDATA[lot]]></word>
+			<word xMin="447.6" xMax="456.3" yMin="210.0" yMax="219.8" base="217.4" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="447.6,453.3"><![CDATA[of]]></word>
+			<word xMin="459.2" xMax="487.9" yMin="210.0" yMax="219.8" base="217.4" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="459.2,464.8,469.5,475.2,480.6,483.2"><![CDATA[people]]></word>
+			<word xMin="490.8" xMax="509.5" yMin="210.0" yMax="219.8" base="217.4" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="490.8,498.2,503.8"><![CDATA[who]]></word>
+			<word xMin="512.4" xMax="535.4" yMin="210.0" yMax="219.8" base="217.4" space="0" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="512.4,518.1,523.7,529.1,531.9"><![CDATA[don’t]]></word>
+		</line>
+	</block>
+	<block rot="0" xMin="356.8" xMax="483.8" yMin="241.5" yMax="251.3" priMin="226.5" priMax="612.0">
+		<line>
+			<word xMin="356.8" xMax="365.9" yMin="241.5" yMax="251.3" base="248.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="356.8,360.1"><![CDATA[to]]></word>
+			<word xMin="368.7" xMax="418.0" yMin="241.5" yMax="251.3" base="248.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="368.7,372.4,378.1,386.6,391.3,395.1,401.1,404.0,409.6,415.2"><![CDATA[something,]]></word>
+			<word xMin="420.9" xMax="436.9" yMin="241.5" yMax="251.3" base="248.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="420.9,425.5,431.1"><![CDATA[you]]></word>
+			<word xMin="439.7" xMax="454.9" yMin="241.5" yMax="251.3" base="248.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="439.7,444.3,449.1"><![CDATA[can]]></word>
+			<word xMin="457.7" xMax="472.1" yMin="241.5" yMax="251.3" base="248.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="457.7,463.6,467.4"><![CDATA[use]]></word>
+			<word xMin="475.0" xMax="483.8" yMin="241.5" yMax="251.3" base="248.9" space="0" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="475.0,477.5,481.0"><![CDATA[it.]]></word>
+		</line>
+	</block>
+	<block rot="0" xMin="396.3" xMax="564.1" yMin="259.5" yMax="269.3" priMin="268.7" priMax="612.0">
+		<line>
+			<word xMin="396.3" xMax="399.1" yMin="259.5" yMax="269.3" base="266.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="396.3"><![CDATA[,]]></word>
+			<word xMin="402.0" xMax="417.9" yMin="259.5" yMax="269.3" base="266.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="402.0,406.5,412.2"><![CDATA[you]]></word>
+			<word xMin="420.8" xMax="435.9" yMin="259.5" yMax="269.3" base="266.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="420.8,425.4,430.2"><![CDATA[can]]></word>
+			<word xMin="438.8" xMax="450.2" yMin="259.5" yMax="269.3" base="266.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="438.8,444.4"><![CDATA[do]]></word>
+			<word xMin="453.0" xMax="492.4" yMin="259.5" yMax="269.3" base="266.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="453.0,457.8,463.5,468.5,472.3,478.3,481.2,486.8"><![CDATA[anything]]></word>
+			<word xMin="495.2" xMax="511.2" yMin="259.5" yMax="269.3" base="266.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="495.2,499.8,505.4"><![CDATA[you]]></word>
+			<word xMin="514.0" xMax="535.3" yMin="259.5" yMax="269.3" base="266.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="514.0,521.4,526.2,531.8"><![CDATA[want]]></word>
+			<word xMin="538.1" xMax="547.2" yMin="259.5" yMax="269.3" base="266.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="538.1,541.5"><![CDATA[to]]></word>
+			<word xMin="550.1" xMax="564.1" yMin="259.5" yMax="269.3" base="266.9" space="0" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="550.1,555.7,561.2"><![CDATA[do.]]></word>
+		</line>
+	</block>
+	<block rot="0" xMin="378.3" xMax="542.4" yMin="277.5" yMax="287.3" priMin="248.0" priMax="612.0">
+		<line>
+			<word xMin="378.3" xMax="396.0" yMin="277.5" yMax="287.3" base="284.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="378.3,380.9,386.5,392.3"><![CDATA[jobs]]></word>
+			<word xMin="398.8" xMax="407.9" yMin="277.5" yMax="287.3" base="284.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="398.8,402.2"><![CDATA[to]]></word>
+			<word xMin="410.8" xMax="442.4" yMin="277.5" yMax="287.3" base="284.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="410.8,416.3,421.1,426.8,432.2,434.8,439.5"><![CDATA[people,]]></word>
+			<word xMin="445.2" xMax="451.2" yMin="277.5" yMax="287.3" base="284.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="445.2,447.7"><![CDATA[it]]></word>
+			<word xMin="454.1" xMax="475.6" yMin="277.5" yMax="287.3" base="284.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="454.1,459.9,462.5,467.1,471.9"><![CDATA[gives]]></word>
+			<word xMin="478.4" xMax="496.1" yMin="277.5" yMax="287.3" base="284.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="478.4,481.0,486.7,492.4"><![CDATA[jobs]]></word>
+			<word xMin="499.0" xMax="508.1" yMin="277.5" yMax="287.3" base="284.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="499.0,502.3"><![CDATA[to]]></word>
+			<word xMin="510.9" xMax="542.4" yMin="277.5" yMax="287.3" base="284.9" space="0" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="510.9,516.5,521.2,526.9,532.3,534.9,539.5"><![CDATA[people.]]></word>
+		</line>
+	</block>
+	<block rot="0" xMin="384.2" xMax="555.8" yMin="295.5" yMax="305.3" priMin="256.7" priMax="612.0">
+		<line>
+			<word xMin="384.2" xMax="387.0" yMin="295.5" yMax="305.3" base="302.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="384.2"><![CDATA[,]]></word>
+			<word xMin="389.9" xMax="405.8" yMin="295.5" yMax="305.3" base="302.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="389.9,394.4,400.1"><![CDATA[you]]></word>
+			<word xMin="408.7" xMax="421.8" yMin="295.5" yMax="305.3" base="302.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="408.7,413.5,417.1"><![CDATA[are]]></word>
+			<word xMin="424.7" xMax="442.8" yMin="295.5" yMax="305.3" base="302.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="424.7,429.2,433.9,438.0"><![CDATA[very]]></word>
+			<word xMin="445.6" xMax="498.3" yMin="295.5" yMax="305.3" base="302.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="445.6,450.1,455.7,464.5,467.6,473.3,477.3,480.9,485.4,491.0,493.5"><![CDATA[comfortable]]></word>
+			<word xMin="501.1" xMax="517.3" yMin="295.5" yMax="305.3" base="302.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="501.1,505.9,511.5"><![CDATA[and]]></word>
+			<word xMin="520.1" xMax="555.8" yMin="295.5" yMax="305.3" base="302.9" space="0" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="520.1,527.4,532.2,537.0,539.5,543.3,548.9,552.9"><![CDATA[wealthy.]]></word>
+		</line>
+	</block>
+	<block rot="0" xMin="390.8" xMax="562.4" yMin="313.5" yMax="323.3" priMin="260.4" priMax="612.0">
+		<line>
+			<word xMin="390.8" xMax="431.6" yMin="313.5" yMax="323.3" base="320.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="390.8,394.5,397.0,400.7,406.5,410.9,414.8,417.3,423.0,428.7"><![CDATA[situation,]]></word>
+			<word xMin="434.5" xMax="450.4" yMin="313.5" yMax="323.3" base="320.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="434.5,439.0,444.7"><![CDATA[you]]></word>
+			<word xMin="453.3" xMax="466.4" yMin="313.5" yMax="323.3" base="320.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="453.3,458.1,461.7"><![CDATA[are]]></word>
+			<word xMin="469.3" xMax="500.2" yMin="313.5" yMax="323.3" base="320.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="469.3,472.9,477.8,480.7,486.2,489.1,494.7"><![CDATA[talking]]></word>
+			<word xMin="503.1" xMax="528.1" yMin="313.5" yMax="323.3" base="320.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="503.1,507.5,513.3,519.0,524.6"><![CDATA[about]]></word>
+			<word xMin="530.9" xMax="562.4" yMin="313.5" yMax="323.3" base="320.9" space="0" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="530.9,539.4,545.1,550.7,555.5,559.5"><![CDATA[money.]]></word>
+		</line>
+	</block>
+	<block rot="0" xMin="347.7" xMax="495.9" yMin="331.5" yMax="341.3" priMin="247.9" priMax="612.0">
+		<line>
+			<word xMin="347.7" xMax="350.6" yMin="331.5" yMax="341.3" base="338.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="347.7"><![CDATA[,]]></word>
+			<word xMin="353.4" xMax="369.4" yMin="331.5" yMax="341.3" base="338.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="353.4,358.0,363.7"><![CDATA[you]]></word>
+			<word xMin="372.3" xMax="387.4" yMin="331.5" yMax="341.3" base="338.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="372.3,375.3,380.1,384.7"><![CDATA[feel]]></word>
+			<word xMin="390.2" xMax="406.5" yMin="331.5" yMax="341.3" base="338.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="390.2,393.9,398.7,401.8"><![CDATA[safe]]></word>
+			<word xMin="409.4" xMax="425.6" yMin="331.5" yMax="341.3" base="338.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="409.4,414.2,419.8"><![CDATA[and]]></word>
+			<word xMin="428.4" xMax="441.6" yMin="331.5" yMax="341.3" base="338.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="428.4,433.2,436.9"><![CDATA[are]]></word>
+			<word xMin="444.5" xMax="459.2" yMin="331.5" yMax="341.3" base="338.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="444.5,450.1,455.7"><![CDATA[not]]></word>
+			<word xMin="462.1" xMax="495.9" yMin="331.5" yMax="341.3" base="338.9" space="0" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="462.1,469.3,475.0,478.9,482.9,485.4,490.1"><![CDATA[worried]]></word>
+		</line>
+	</block>
+	<block rot="0" xMin="370.9" xMax="504.7" yMin="363.0" yMax="372.8" priMin="243.6" priMax="612.0">
+		<line>
+			<word xMin="370.9" xMax="373.8" yMin="363.0" yMax="372.8" base="370.4" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="370.9"><![CDATA[,]]></word>
+			<word xMin="376.7" xMax="392.6" yMin="363.0" yMax="372.8" base="370.4" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="376.7,381.2,386.9"><![CDATA[you]]></word>
+			<word xMin="395.5" xMax="414.9" yMin="363.0" yMax="372.8" base="370.4" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="395.5,401.3,405.6,410.2"><![CDATA[have]]></word>
+			<word xMin="417.8" xMax="422.3" yMin="363.0" yMax="372.8" base="370.4" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="417.8"><![CDATA[a]]></word>
+			<word xMin="425.1" xMax="449.7" yMin="363.0" yMax="372.8" base="370.4" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="425.1,430.8,436.4,445.0"><![CDATA[home]]></word>
+			<word xMin="452.5" xMax="468.7" yMin="363.0" yMax="372.8" base="370.4" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="452.5,457.4,463.0"><![CDATA[and]]></word>
+			<word xMin="471.6" xMax="504.7" yMin="363.0" yMax="372.8" base="370.4" space="0" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="471.6,476.2,481.9,487.5,493.2,499.0"><![CDATA[enough]]></word>
+		</line>
+	</block>
+	<block rot="0" xMin="350.6" xMax="523.1" yMin="394.5" yMax="404.3" priMin="220.3" priMax="612.0">
+		<line>
+			<word xMin="350.6" xMax="375.5" yMin="394.5" yMax="404.3" base="401.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="350.6,355.0,360.8,366.4,372.1"><![CDATA[about]]></word>
+			<word xMin="378.4" xMax="427.7" yMin="394.5" yMax="404.3" base="401.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="378.4,382.1,387.8,396.3,401.0,404.8,410.8,413.7,419.3,424.8"><![CDATA[something,]]></word>
+			<word xMin="430.6" xMax="446.5" yMin="394.5" yMax="404.3" base="401.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="430.6,435.1,440.8"><![CDATA[you]]></word>
+			<word xMin="449.4" xMax="462.5" yMin="394.5" yMax="404.3" base="401.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="449.4,454.2,457.8"><![CDATA[are]]></word>
+			<word xMin="465.4" xMax="483.5" yMin="394.5" yMax="404.3" base="401.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="465.4,469.1,475.1,478.8"><![CDATA[sure]]></word>
+			<word xMin="486.4" xMax="511.3" yMin="394.5" yMax="404.3" base="401.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="486.4,490.8,496.6,502.3,507.9"><![CDATA[about]]></word>
+			<word xMin="514.2" xMax="523.1" yMin="394.5" yMax="404.3" base="401.9" space="0" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="514.2,516.7,520.2"><![CDATA[it.]]></word>
+		</line>
+	</block>
+</flow>
+<flow xMin="135.0" xMax="554.4" yMin="429.1" yMax="545.1" priMin="0.0" priMax="612.0">
+	<block rot="0" xMin="135.0" xMax="492.1" yMin="429.1" yMax="438.6" priMin="0.0" priMax="612.0">
+		<line>
+			<word xMin="135.0" xMax="142.2" yMin="429.1" yMax="438.5" base="436.4" space="1" fontName="MFPHLO+HelveticaNeueLTStd-Bd" fontSize="10.3" charEdges="135.0"><![CDATA[B]]></word>
+			<word xMin="148.5" xMax="150.8" yMin="429.1" yMax="438.6" base="436.4" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="148.5"><![CDATA[|]]></word>
+			<word xMin="157.5" xMax="186.1" yMin="429.1" yMax="438.5" base="436.4" space="1" fontName="MFPHLO+HelveticaNeueLTStd-Bd" fontSize="10.3" charEdges="157.5,165.2,170.8,173.6,179.9"><![CDATA[Using]]></word>
+			<word xMin="189.0" xMax="247.2" yMin="429.1" yMax="438.5" base="436.4" space="1" fontName="MFPHLO+HelveticaNeueLTStd-Bd" fontSize="10.3" charEdges="189.0,195.1,201.5,207.5,213.5,219.9,226.1,228.9,234.9,239.4,244.4"><![CDATA[Vocabulary.]]></word>
+			<word xMin="250.1" xMax="283.3" yMin="429.1" yMax="438.6" base="436.4" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="250.1,256.7,262.2,267.2,274.7,280.1"><![CDATA[Answer]]></word>
+			<word xMin="286.2" xMax="300.1" yMin="429.1" yMax="438.6" base="436.4" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="286.2,289.2,294.8"><![CDATA[the]]></word>
+			<word xMin="302.9" xMax="348.7" yMin="429.1" yMax="438.6" base="436.4" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="302.9,308.8,314.4,319.8,324.8,327.8,329.7,335.5,341.0,345.8"><![CDATA[questions.]]></word>
+			<word xMin="351.5" xMax="377.5" yMin="429.1" yMax="438.6" base="436.4" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="351.5,358.1,363.6,369.0,372.2"><![CDATA[Share]]></word>
+			<word xMin="380.4" xMax="399.5" yMin="429.1" yMax="438.6" base="436.4" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="380.4,385.0,390.7,396.3"><![CDATA[your]]></word>
+			<word xMin="402.4" xMax="426.0" yMin="429.1" yMax="438.6" base="436.4" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="402.4,404.3,410.2,415.7,421.1"><![CDATA[ideas]]></word>
+			<word xMin="428.8" xMax="447.0" yMin="429.1" yMax="438.6" base="436.4" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="428.8,436.5,438.5,441.5"><![CDATA[with]]></word>
+			<word xMin="449.8" xMax="455.2" yMin="429.1" yMax="438.6" base="436.4" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="449.8"><![CDATA[a]]></word>
+			<word xMin="458.0" xMax="492.1" yMin="429.1" yMax="438.6" base="436.4" space="0" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="458.0,463.9,469.3,472.9,475.9,481.4,486.9,489.3"><![CDATA[partner.]]></word>
+		</line>
+	</block>
+	<block rot="0" xMin="158.0" xMax="513.1" yMin="451.5" yMax="462.5" priMin="0.0" priMax="612.0">
+		<line>
+			<word xMin="158.0" xMax="165.8" yMin="451.6" yMax="461.1" base="458.9" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="158.0,162.9"><![CDATA[1.]]></word>
+			<word xMin="173.0" xMax="196.8" yMin="451.5" yMax="461.4" base="458.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="173.0,183.1,188.9,193.3"><![CDATA[What]]></word>
+			<word xMin="199.7" xMax="211.1" yMin="451.5" yMax="461.4" base="458.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="199.7,205.3"><![CDATA[do]]></word>
+			<word xMin="213.9" xMax="229.9" yMin="451.5" yMax="461.4" base="458.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="213.9,218.5,224.1"><![CDATA[you]]></word>
+			<word xMin="232.7" xMax="256.6" yMin="451.5" yMax="461.4" base="458.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="232.7,236.6,242.6,245.5,251.5"><![CDATA[think]]></word>
+			<word xMin="259.5" xMax="272.7" yMin="451.5" yMax="461.4" base="458.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="259.5,264.3,268.0"><![CDATA[are]]></word>
+			<word xMin="275.5" xMax="289.7" yMin="451.5" yMax="461.4" base="458.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="275.5,279.4,285.0"><![CDATA[the]]></word>
+			<word xMin="292.6" xMax="315.9" yMin="451.6" yMax="462.5" base="458.9" space="1" fontName="MFPHGO+GalliardStd-Black" fontSize="10.3" charEdges="292.6,298.7,303.8,308.0,311.3"><![CDATA[basic]]></word>
+			<word xMin="318.9" xMax="367.7" yMin="451.6" yMax="462.5" base="458.9" space="1" fontName="MFPHGO+GalliardStd-Black" fontSize="10.3" charEdges="318.9,325.0,330.0,334.6,339.6,343.8,348.0,351.2,355.3,358.5,363.4"><![CDATA[necessities]]></word>
+			<word xMin="370.5" xMax="379.2" yMin="451.5" yMax="461.4" base="458.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="370.5,373.4"><![CDATA[in]]></word>
+			<word xMin="382.0" xMax="398.5" yMin="451.5" yMax="461.4" base="458.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="382.0,385.0,387.9,390.9,395.6"><![CDATA[life,]]></word>
+			<word xMin="401.4" xMax="432.3" yMin="451.5" yMax="461.4" base="458.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="401.4,407.1,411.9,415.6,418.2,423.8,428.6"><![CDATA[besides]]></word>
+			<word xMin="435.2" xMax="455.6" yMin="451.5" yMax="461.4" base="458.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="435.2,438.3,444.1,449.9"><![CDATA[food]]></word>
+			<word xMin="458.5" xMax="474.7" yMin="451.5" yMax="461.4" base="458.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="458.5,463.3,469.0"><![CDATA[and]]></word>
+			<word xMin="477.6" xMax="482.1" yMin="451.5" yMax="461.4" base="458.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="477.6"><![CDATA[a]]></word>
+			<word xMin="484.9" xMax="513.1" yMin="451.5" yMax="461.4" base="458.9" space="0" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="484.9,490.6,496.2,504.7,509.4"><![CDATA[home?]]></word>
+		</line>
+	</block>
+	<block rot="0" xMin="158.0" xMax="435.8" yMin="469.5" yMax="480.5" priMin="0.0" priMax="612.0">
+		<line>
+			<word xMin="158.0" xMax="166.2" yMin="469.6" yMax="479.1" base="476.9" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="158.0,163.3"><![CDATA[2.]]></word>
+			<word xMin="173.0" xMax="187.2" yMin="469.5" yMax="479.4" base="476.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="173.0,181.4"><![CDATA[Do]]></word>
+			<word xMin="190.0" xMax="206.0" yMin="469.5" yMax="479.4" base="476.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="190.0,194.6,200.2"><![CDATA[you]]></word>
+			<word xMin="208.9" xMax="223.9" yMin="469.5" yMax="479.4" base="476.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="208.9,211.9,216.6,221.3"><![CDATA[feel]]></word>
+			<word xMin="226.8" xMax="271.4" yMin="469.6" yMax="480.5" base="476.9" space="1" fontName="MFPHGO+GalliardStd-Black" fontSize="10.3" charEdges="226.8,231.5,237.3,243.8,250.3,256.6,261.4,267.5"><![CDATA[confident]]></word>
+			<word xMin="274.3" xMax="299.3" yMin="469.5" yMax="479.4" base="476.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="274.3,278.8,284.5,290.2,295.8"><![CDATA[about]]></word>
+			<word xMin="302.2" xMax="322.1" yMin="469.5" yMax="479.4" base="476.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="302.2,306.7,312.4,318.4"><![CDATA[your]]></word>
+			<word xMin="325.0" xMax="355.9" yMin="469.5" yMax="479.4" base="476.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="325.0,328.4,334.0,337.8,343.8,347.5,352.2"><![CDATA[future?]]></word>
+			<word xMin="358.8" xMax="381.5" yMin="469.5" yMax="479.4" base="476.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="358.8,368.9,374.5,378.6"><![CDATA[Why,]]></word>
+			<word xMin="384.3" xMax="393.8" yMin="469.5" yMax="479.4" base="476.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="384.3,390.1"><![CDATA[or]]></word>
+			<word xMin="396.6" xMax="414.4" yMin="469.5" yMax="479.4" base="476.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="396.6,404.0,409.6"><![CDATA[why]]></word>
+			<word xMin="417.2" xMax="435.8" yMin="469.5" yMax="479.4" base="476.9" space="0" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="417.2,422.9,428.5,432.1"><![CDATA[not?]]></word>
+		</line>
+	</block>
+	<block rot="0" xMin="158.0" xMax="297.6" yMin="487.5" yMax="498.5" priMin="0.0" priMax="612.0">
+		<line>
+			<word xMin="158.0" xMax="166.4" yMin="487.6" yMax="497.1" base="494.9" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="158.0,163.6"><![CDATA[3.]]></word>
+			<word xMin="173.0" xMax="194.5" yMin="487.5" yMax="497.4" base="494.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="173.0,183.1,188.8"><![CDATA[Who]]></word>
+			<word xMin="197.4" xMax="208.8" yMin="487.5" yMax="497.4" base="494.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="197.4,203.0"><![CDATA[do]]></word>
+			<word xMin="211.6" xMax="227.6" yMin="487.5" yMax="497.4" base="494.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="211.6,216.2,221.8"><![CDATA[you]]></word>
+			<word xMin="230.4" xMax="271.2" yMin="487.6" yMax="498.5" base="494.9" space="1" fontName="MFPHGO+GalliardStd-Black" fontSize="10.3" charEdges="230.4,234.7,240.7,245.4,248.8,254.0,257.5,261.0,266.4"><![CDATA[socialize]]></word>
+			<word xMin="274.1" xMax="297.6" yMin="487.5" yMax="497.4" base="494.9" space="0" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="274.1,281.8,284.3,288.1,293.9"><![CDATA[with?]]></word>
+		</line>
+	</block>
+	<block rot="0" xMin="135.0" xMax="554.4" yMin="522.1" yMax="545.1" priMin="0.0" priMax="612.0">
+		<line>
+			<word xMin="135.0" xMax="142.6" yMin="522.1" yMax="531.6" base="529.5" space="1" fontName="MFPHLO+HelveticaNeueLTStd-Bd" fontSize="10.3" charEdges="135.0"><![CDATA[C]]></word>
+			<word xMin="148.5" xMax="150.8" yMin="522.1" yMax="531.6" base="529.5" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="148.5"><![CDATA[|]]></word>
+			<word xMin="157.5" xMax="231.5" yMin="522.1" yMax="531.6" base="529.5" space="1" fontName="MFPHLO+HelveticaNeueLTStd-Bd" fontSize="10.3" charEdges="157.5,164.9,169.0,175.0,177.8,184.0,189.7,193.3,199.7,203.8,213.3,216.1,222.3,228.7"><![CDATA[Brainstorming.]]></word>
+			<word xMin="234.4" xMax="249.9" yMin="522.1" yMax="531.6" base="529.5" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="234.4,240.0,241.9,246.9"><![CDATA[List]]></word>
+			<word xMin="252.8" xMax="264.7" yMin="522.1" yMax="531.6" base="529.5" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="252.8,257.7,259.7"><![CDATA[six]]></word>
+			<word xMin="267.5" xMax="294.2" yMin="522.1" yMax="531.6" base="529.5" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="267.5,270.6,276.1,278.0,283.5,289.3"><![CDATA[things]]></word>
+			<word xMin="297.1" xMax="313.0" yMin="522.1" yMax="531.6" base="529.5" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="297.1,301.7,307.5"><![CDATA[you]]></word>
+			<word xMin="315.8" xMax="337.0" yMin="522.1" yMax="531.6" base="529.5" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="315.8,318.9,324.4,326.3,331.8"><![CDATA[think]]></word>
+			<word xMin="339.8" xMax="345.2" yMin="522.1" yMax="531.6" base="529.5" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="339.8"><![CDATA[a]]></word>
+			<word xMin="348.0" xMax="378.9" yMin="522.1" yMax="531.6" base="529.5" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="348.0,354.0,359.4,362.7,367.7,373.4"><![CDATA[person]]></word>
+			<word xMin="381.8" xMax="409.0" yMin="522.1" yMax="531.6" base="529.5" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="381.8,387.3,392.8,398.2,404.1"><![CDATA[needs]]></word>
+			<word xMin="411.9" xMax="419.3" yMin="522.1" yMax="531.6" base="529.5" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="411.9,413.8"><![CDATA[in]]></word>
+			<word xMin="422.2" xMax="445.7" yMin="522.1" yMax="531.6" base="529.5" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="422.2,427.9,431.1,437.0,442.5"><![CDATA[order]]></word>
+			<word xMin="448.6" xMax="457.1" yMin="522.1" yMax="531.6" base="529.5" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="448.6,451.4"><![CDATA[to]]></word>
+			<word xMin="459.9" xMax="471.2" yMin="522.1" yMax="531.6" base="529.5" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="459.9,465.9"><![CDATA[be]]></word>
+			<word xMin="474.1" xMax="503.6" yMin="522.1" yMax="531.6" base="529.5" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="474.1,479.6,485.0,490.9,496.7,500.8"><![CDATA[happy.]]></word>
+			<word xMin="506.5" xMax="532.4" yMin="522.1" yMax="531.6" base="529.5" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="506.5,512.9,518.5,523.9,527.1"><![CDATA[Share]]></word>
+			<word xMin="535.2" xMax="554.4" yMin="522.1" yMax="531.6" base="529.5" space="0" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="535.2,539.9,545.6,551.2"><![CDATA[your]]></word>
+		</line>
+		<line>
+			<word xMin="157.5" xMax="181.1" yMin="535.6" yMax="545.1" base="543.0" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="157.5,159.4,165.4,170.8,176.2"><![CDATA[ideas]]></word>
+			<word xMin="184.0" xMax="202.1" yMin="535.6" yMax="545.1" base="543.0" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="184.0,191.6,193.6,196.6"><![CDATA[with]]></word>
+			<word xMin="205.0" xMax="210.3" yMin="535.6" yMax="545.1" base="543.0" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="205.0"><![CDATA[a]]></word>
+			<word xMin="213.2" xMax="247.2" yMin="535.6" yMax="545.1" base="543.0" space="0" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="213.2,219.1,224.5,228.1,231.0,236.6,242.0,244.4"><![CDATA[partner.]]></word>
+		</line>
+	</block>
+</flow>
+<flow xMin="40.5" xMax="99.0" yMin="561.2" yMax="659.8" priMin="0.0" priMax="158.0">
+	<block rot="0" xMin="43.1" xMax="91.0" yMin="561.2" yMax="571.1" priMin="0.0" priMax="158.0">
+		<line>
+			<word xMin="43.1" xMax="91.0" yMin="561.2" yMax="571.1" base="569.1" space="0" fontName="MFPHKO+HelveticaNeueLTStd-Blk" fontSize="11.0" charEdges="43.1,50.5,55.0,59.8,66.6,71.0,78.0,84.9"><![CDATA[Strategy]]></word>
+		</line>
+	</block>
+	<block rot="0" xMin="40.5" xMax="99.0" yMin="582.0" yMax="659.8" priMin="0.0" priMax="135.0">
+		<line>
+			<word xMin="40.5" xMax="62.0" yMin="582.0" yMax="589.8" base="588.1" space="1" fontName="MFPHLO+HelveticaNeueLTStd-Bd" fontSize="8.5" charEdges="40.5,46.7,51.7,56.8"><![CDATA[Read]]></word>
+			<word xMin="64.3" xMax="85.2" yMin="582.0" yMax="589.8" base="588.1" space="0" fontName="MFPHLO+HelveticaNeueLTStd-Bd" fontSize="8.5" charEdges="64.3,67.6,69.9,73.2,75.6,80.6"><![CDATA[titles]]></word>
+		</line>
+		<line>
+			<word xMin="40.5" xMax="56.0" yMin="592.0" yMax="599.8" base="598.1" space="1" fontName="MFPHLO+HelveticaNeueLTStd-Bd" fontSize="8.5" charEdges="40.5,45.5,50.8"><![CDATA[and]]></word>
+			<word xMin="58.3" xMax="99.0" yMin="592.0" yMax="599.8" base="598.1" space="0" fontName="MFPHLO+HelveticaNeueLTStd-Bd" fontSize="8.5" charEdges="58.3,63.1,68.3,73.7,78.9,83.9,89.0,94.4"><![CDATA[subheads]]></word>
+		</line>
+		<line>
+			<word xMin="40.5" xMax="47.6" yMin="602.0" yMax="609.9" base="608.1" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.5" charEdges="40.5,42.9"><![CDATA[to]]></word>
+			<word xMin="50.0" xMax="75.9" yMin="602.0" yMax="609.9" base="608.1" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.5" charEdges="50.0,55.0,57.7,62.2,67.2,68.9,73.4"><![CDATA[predict]]></word>
+			<word xMin="78.3" xMax="96.3" yMin="602.0" yMax="609.9" base="608.1" space="0" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.5" charEdges="78.3,84.7,89.4,93.8"><![CDATA[what]]></word>
+		</line>
+		<line>
+			<word xMin="40.5" xMax="44.9" yMin="612.0" yMax="619.9" base="618.1" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.5" charEdges="40.5"><![CDATA[a]]></word>
+			<word xMin="47.2" xMax="78.9" yMin="612.0" yMax="619.9" base="618.1" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.5" charEdges="47.2,52.2,56.7,61.0,65.2,69.7,74.5"><![CDATA[passage]]></word>
+			<word xMin="81.3" xMax="87.0" yMin="612.0" yMax="619.9" base="618.1" space="0" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.5" charEdges="81.3,83.0"><![CDATA[is]]></word>
+		</line>
+		<line>
+			<word xMin="40.5" xMax="64.2" yMin="622.0" yMax="629.9" base="628.1" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.5" charEdges="40.5,45.0,50.0,54.8,59.5,61.9"><![CDATA[about.]]></word>
+			<word xMin="66.6" xMax="81.9" yMin="622.0" yMax="629.9" base="628.1" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.5" charEdges="66.6,71.5,76.1,77.8"><![CDATA[This]]></word>
+			<word xMin="84.3" xMax="95.6" yMin="622.0" yMax="629.9" base="628.1" space="0" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.5" charEdges="84.3,90.7,92.3,94.0"><![CDATA[will]]></word>
+		</line>
+		<line>
+			<word xMin="40.5" xMax="56.2" yMin="632.0" yMax="639.9" base="638.1" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.5" charEdges="40.5,45.1,49.7,51.4"><![CDATA[help]]></word>
+			<word xMin="58.6" xMax="71.9" yMin="632.0" yMax="639.9" base="638.1" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.5" charEdges="58.6,62.5,67.4"><![CDATA[you]]></word>
+			<word xMin="74.3" xMax="94.4" yMin="632.0" yMax="639.9" base="638.1" space="0" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.5" charEdges="74.3,78.7,83.4,88.1"><![CDATA[know]]></word>
+		</line>
+		<line>
+			<word xMin="40.5" xMax="58.5" yMin="642.0" yMax="649.9" base="648.1" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.5" charEdges="40.5,46.9,51.6,56.0"><![CDATA[what]]></word>
+			<word xMin="60.9" xMax="68.0" yMin="642.0" yMax="649.9" base="648.1" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.5" charEdges="60.9,63.3"><![CDATA[to]]></word>
+			<word xMin="70.4" xMax="95.6" yMin="642.0" yMax="649.9" base="648.1" space="0" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.5" charEdges="70.4,74.8,79.0,84.0,88.6,93.1"><![CDATA[expect]]></word>
+		</line>
+		<line>
+			<word xMin="40.5" xMax="49.1" yMin="652.0" yMax="659.8" base="658.1" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.5" charEdges="40.5,45.0"><![CDATA[as]]></word>
+			<word xMin="51.5" xMax="64.8" yMin="652.0" yMax="659.8" base="658.1" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.5" charEdges="51.5,55.4,60.2"><![CDATA[you]]></word>
+			<word xMin="67.2" xMax="86.1" yMin="652.0" yMax="659.8" base="658.1" space="0" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.5" charEdges="67.2,69.8,74.4,78.9,83.7"><![CDATA[read.]]></word>
+		</line>
+	</block>
+</flow>
+<flow xMin="158.0" xMax="166.2" yMin="558.1" yMax="585.6" priMin="91.0" priMax="289.0">
+	<block rot="0" xMin="158.0" xMax="165.8" yMin="558.1" yMax="567.6" priMin="91.0" priMax="289.0">
+		<line>
+			<word xMin="158.0" xMax="165.8" yMin="558.1" yMax="567.6" base="565.5" space="0" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="158.0,162.9"><![CDATA[1.]]></word>
+		</line>
+	</block>
+	<block rot="0" xMin="158.0" xMax="166.2" yMin="576.1" yMax="585.6" priMin="99.0" priMax="289.0">
+		<line>
+			<word xMin="158.0" xMax="166.2" yMin="576.1" yMax="585.6" base="583.5" space="0" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="158.0,163.3"><![CDATA[2.]]></word>
+		</line>
+	</block>
+</flow>
+<flow xMin="289.0" xMax="297.4" yMin="558.1" yMax="585.6" priMin="165.8" priMax="423.0">
+	<block rot="0" xMin="289.0" xMax="297.4" yMin="558.1" yMax="567.6" priMin="165.8" priMax="423.0">
+		<line>
+			<word xMin="289.0" xMax="297.4" yMin="558.1" yMax="567.6" base="565.5" space="0" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="289.0,294.6"><![CDATA[3.]]></word>
+		</line>
+	</block>
+	<block rot="0" xMin="289.0" xMax="297.3" yMin="576.1" yMax="585.6" priMin="166.2" priMax="423.0">
+		<line>
+			<word xMin="289.0" xMax="297.3" yMin="576.1" yMax="585.6" base="583.5" space="0" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="289.0,294.4"><![CDATA[4.]]></word>
+		</line>
+	</block>
+</flow>
+<flow xMin="423.0" xMax="431.5" yMin="558.1" yMax="585.6" priMin="297.4" priMax="612.0">
+	<block rot="0" xMin="423.0" xMax="431.4" yMin="558.1" yMax="567.6" priMin="297.4" priMax="612.0">
+		<line>
+			<word xMin="423.0" xMax="431.4" yMin="558.1" yMax="567.6" base="565.5" space="0" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="423.0,428.5"><![CDATA[5.]]></word>
+		</line>
+	</block>
+	<block rot="0" xMin="423.0" xMax="431.5" yMin="576.1" yMax="585.6" priMin="297.3" priMax="612.0">
+		<line>
+			<word xMin="423.0" xMax="431.5" yMin="576.1" yMax="585.6" base="583.5" space="0" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="423.0,428.6"><![CDATA[6.]]></word>
+		</line>
+	</block>
+</flow>
+<flow xMin="135.0" xMax="396.4" yMin="610.7" yMax="706.0" priMin="99.0" priMax="447.3">
+	<block rot="0" xMin="135.0" xMax="383.6" yMin="610.7" yMax="647.2" priMin="99.0" priMax="447.3">
+		<line>
+			<word xMin="135.0" xMax="142.6" yMin="610.7" yMax="620.1" base="618.0" space="1" fontName="MFPHLO+HelveticaNeueLTStd-Bd" fontSize="10.3" charEdges="135.0"><![CDATA[D]]></word>
+			<word xMin="148.5" xMax="150.8" yMin="610.7" yMax="620.2" base="618.0" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="148.5"><![CDATA[|]]></word>
+			<word xMin="157.5" xMax="211.8" yMin="610.7" yMax="620.1" base="618.0" space="1" fontName="MFPHLO+HelveticaNeueLTStd-Bd" fontSize="10.3" charEdges="157.5,164.4,168.5,174.5,180.9,183.7,189.7,193.6,196.4,202.6,209.0"><![CDATA[Predicting.]]></word>
+			<word xMin="214.7" xMax="238.1" yMin="610.7" yMax="620.2" base="618.0" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="214.7,221.5,226.9,232.3"><![CDATA[Read]]></word>
+			<word xMin="241.0" xMax="254.9" yMin="610.7" yMax="620.2" base="618.0" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="241.0,244.0,249.6"><![CDATA[the]]></word>
+			<word xMin="257.8" xMax="272.9" yMin="610.7" yMax="620.2" base="618.0" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="257.8,260.7,262.7,265.7,267.6"><![CDATA[title]]></word>
+			<word xMin="275.8" xMax="292.6" yMin="610.7" yMax="620.2" base="618.0" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="275.8,281.2,286.7"><![CDATA[and]]></word>
+			<word xMin="295.5" xMax="309.4" yMin="610.7" yMax="620.2" base="618.0" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="295.5,298.5,304.1"><![CDATA[the]]></word>
+			<word xMin="312.2" xMax="355.8" yMin="610.7" yMax="620.2" base="618.0" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="312.2,317.2,322.7,328.6,334.2,339.6,344.9,350.8"><![CDATA[subheads]]></word>
+			<word xMin="358.6" xMax="366.9" yMin="610.7" yMax="620.2" base="618.0" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="358.6,364.2"><![CDATA[of]]></word>
+			<word xMin="369.7" xMax="383.6" yMin="610.7" yMax="620.2" base="618.0" space="0" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="369.7,372.7,378.3"><![CDATA[the]]></word>
+		</line>
+		<line>
+			<word xMin="157.5" xMax="190.5" yMin="624.2" yMax="633.7" base="631.5" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="157.5,160.7,166.2,171.5,177.4,179.3,184.8"><![CDATA[reading]]></word>
+			<word xMin="193.4" xMax="231.1" yMin="624.2" yMax="633.7" base="631.5" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="193.4,199.3,204.6,209.6,214.7,220.0,225.8"><![CDATA[passage]]></word>
+			<word xMin="233.9" xMax="245.1" yMin="624.2" yMax="633.7" base="631.5" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="233.9,239.6"><![CDATA[on]]></word>
+			<word xMin="248.0" xMax="275.4" yMin="624.2" yMax="633.7" base="631.5" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="248.0,253.9,259.2,265.0,270.4"><![CDATA[pages]]></word>
+			<word xMin="278.2" xMax="298.4" yMin="624.2" yMax="633.7" base="631.5" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="278.2,284.3,289.9,295.5"><![CDATA[5–6.]]></word>
+			<word xMin="301.2" xMax="324.5" yMin="624.2" yMax="633.7" base="631.5" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="301.2,310.6,316.2,321.5"><![CDATA[What]]></word>
+			<word xMin="327.4" xMax="339.0" yMin="624.2" yMax="633.7" base="631.5" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="327.4,333.3"><![CDATA[do]]></word>
+			<word xMin="341.8" xMax="357.7" yMin="624.2" yMax="633.7" base="631.5" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="341.8,346.5,352.2"><![CDATA[you]]></word>
+			<word xMin="360.6" xMax="381.7" yMin="624.2" yMax="633.7" base="631.5" space="0" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="360.6,363.6,369.2,371.1,376.6"><![CDATA[think]]></word>
+		</line>
+		<line>
+			<word xMin="157.5" xMax="171.4" yMin="637.7" yMax="647.2" base="645.0" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="157.5,160.5,166.1"><![CDATA[the]]></word>
+			<word xMin="174.3" xMax="207.3" yMin="637.7" yMax="647.2" base="645.0" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="174.3,177.5,182.9,188.3,194.2,196.1,201.6"><![CDATA[reading]]></word>
+			<word xMin="210.1" xMax="247.9" yMin="637.7" yMax="647.2" base="645.0" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="210.1,216.0,221.4,226.4,231.4,236.8,242.5"><![CDATA[passage]]></word>
+			<word xMin="250.7" xMax="257.5" yMin="637.7" yMax="647.2" base="645.0" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="250.7,252.6"><![CDATA[is]]></word>
+			<word xMin="260.4" xMax="291.6" yMin="637.7" yMax="647.2" base="645.0" space="0" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="260.4,265.8,271.7,277.4,283.0,286.1"><![CDATA[about?]]></word>
+		</line>
+	</block>
+	<block rot="0" xMin="158.0" xMax="372.2" yMin="660.1" yMax="670.0" priMin="0.0" priMax="447.3">
+		<line>
+			<word xMin="158.0" xMax="166.2" yMin="660.2" yMax="669.7" base="667.5" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="158.0,163.3"><![CDATA[a.]]></word>
+			<word xMin="173.0" xMax="212.9" yMin="660.1" yMax="670.0" base="667.5" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="173.0,181.5,184.4,187.8,190.8,195.5,199.2,203.9,209.4"><![CDATA[Different]]></word>
+			<word xMin="215.8" xMax="243.4" yMin="660.1" yMax="670.0" base="667.5" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="215.8,219.6,225.6,228.5,234.1,239.7"><![CDATA[things]]></word>
+			<word xMin="246.3" xMax="269.4" yMin="660.1" yMax="670.0" base="667.5" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="246.3,254.9,259.7,264.7"><![CDATA[make]]></word>
+			<word xMin="272.3" xMax="309.7" yMin="660.1" yMax="670.0" base="667.5" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="272.3,278.3,281.2,284.6,287.7,292.4,296.0,300.7,306.3"><![CDATA[different]]></word>
+			<word xMin="312.6" xMax="341.2" yMin="660.1" yMax="670.0" base="667.5" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="312.6,318.1,322.8,328.6,334.0,336.5"><![CDATA[people]]></word>
+			<word xMin="344.1" xMax="372.2" yMin="660.1" yMax="670.0" base="667.5" space="0" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="344.1,349.8,354.3,359.8,365.3,369.3"><![CDATA[happy.]]></word>
+		</line>
+	</block>
+	<block rot="0" xMin="158.0" xMax="396.4" yMin="678.1" yMax="688.0" priMin="0.0" priMax="447.3">
+		<line>
+			<word xMin="158.0" xMax="166.5" yMin="678.2" yMax="687.7" base="685.5" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="158.0,163.6"><![CDATA[b.]]></word>
+			<word xMin="173.0" xMax="208.8" yMin="678.1" yMax="688.0" base="685.5" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="173.0,178.4,183.2,187.8,193.8,197.8,200.2,204.1"><![CDATA[Security]]></word>
+			<word xMin="211.7" xMax="218.2" yMin="678.1" yMax="688.0" base="685.5" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="211.7,214.5"><![CDATA[is]]></word>
+			<word xMin="221.0" xMax="235.2" yMin="678.1" yMax="688.0" base="685.5" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="221.0,224.9,230.5"><![CDATA[the]]></word>
+			<word xMin="238.1" xMax="259.5" yMin="678.1" yMax="688.0" base="685.5" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="238.1,246.6,252.4,256.0"><![CDATA[most]]></word>
+			<word xMin="262.4" xMax="306.5" yMin="678.1" yMax="688.0" base="685.5" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="262.4,265.2,273.8,279.3,285.0,289.0,292.6,297.4,303.0"><![CDATA[important]]></word>
+			<word xMin="309.4" xMax="333.2" yMin="678.1" yMax="688.0" base="685.5" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="309.4,313.2,319.2,322.1,327.7"><![CDATA[thing]]></word>
+			<word xMin="336.1" xMax="348.6" yMin="678.1" yMax="688.0" base="685.5" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="336.1,339.2,344.9"><![CDATA[for]]></word>
+			<word xMin="351.4" xMax="396.4" yMin="678.1" yMax="688.0" base="685.5" space="0" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="351.4,357.2,361.7,367.2,372.7,375.6,381.2,386.0,389.8,393.5"><![CDATA[happiness.]]></word>
+		</line>
+	</block>
+	<block rot="0" xMin="158.0" xMax="393.6" yMin="696.1" yMax="706.0" priMin="0.0" priMax="447.3">
+		<line>
+			<word xMin="158.0" xMax="166.0" yMin="696.2" yMax="705.7" base="703.5" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="10.3" charEdges="158.0,163.2"><![CDATA[c.]]></word>
+			<word xMin="173.0" xMax="213.6" yMin="696.1" yMax="706.0" base="703.5" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="173.0,179.6,184.1,188.9,193.0,197.6,203.2,208.8"><![CDATA[Everyone]]></word>
+			<word xMin="216.4" xMax="241.1" yMin="696.1" yMax="706.0" base="703.5" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="216.4,222.1,226.8,231.5,237.4"><![CDATA[needs]]></word>
+			<word xMin="244.0" xMax="258.1" yMin="696.1" yMax="706.0" base="703.5" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="244.0,247.8,253.4"><![CDATA[the]]></word>
+			<word xMin="261.0" xMax="282.7" yMin="696.1" yMax="706.0" base="703.5" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="261.0,264.7,269.5,278.0"><![CDATA[same]]></word>
+			<word xMin="285.6" xMax="306.7" yMin="696.1" yMax="706.0" base="703.5" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="285.6,291.3,296.0,299.7,302.2"><![CDATA[basic]]></word>
+			<word xMin="309.6" xMax="337.3" yMin="696.1" yMax="706.0" base="703.5" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="309.6,313.4,319.5,322.4,328.0,333.6"><![CDATA[things]]></word>
+			<word xMin="340.2" xMax="349.2" yMin="696.1" yMax="706.0" base="703.5" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="340.2,343.5"><![CDATA[to]]></word>
+			<word xMin="352.1" xMax="362.6" yMin="696.1" yMax="706.0" base="703.5" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="352.1,357.9"><![CDATA[be]]></word>
+			<word xMin="365.4" xMax="393.6" yMin="696.1" yMax="706.0" base="703.5" space="0" fontName="MFPIFL+GalliardStd-Roman" fontSize="10.3" charEdges="365.4,371.2,375.7,381.2,386.7,390.7"><![CDATA[happy.]]></word>
+		</line>
+	</block>
+</flow>
+<flow xMin="447.3" xMax="545.1" yMin="615.5" yMax="722.7" priMin="383.6" priMax="612.0">
+	<block rot="0" xMin="465.9" xMax="497.4" yMin="615.5" yMax="640.7" priMin="383.6" priMax="612.0">
+		<line>
+			<word xMin="465.9" xMax="497.4" yMin="615.5" yMax="626.3" base="624.1" space="0" fontName="MFPHKO+HelveticaNeueLTStd-Blk" fontSize="12.0" charEdges="465.9,477.0,484.6,489.7"><![CDATA[Word]]></word>
+		</line>
+		<line>
+			<word xMin="465.9" xMax="492.3" yMin="629.9" yMax="640.7" base="638.5" space="0" fontName="MFPHKO+HelveticaNeueLTStd-Blk" fontSize="12.0" charEdges="465.9,473.4,477.2,485.0"><![CDATA[Link]]></word>
+		</line>
+	</block>
+	<block rot="0" xMin="447.3" xMax="545.1" yMin="645.3" yMax="722.7" priMin="396.4" priMax="612.0">
+		<line>
+			<word xMin="447.3" xMax="455.3" yMin="645.3" yMax="652.7" base="651.0" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.0" charEdges="447.3,450.8"><![CDATA[To]]></word>
+			<word xMin="457.5" xMax="486.1" yMin="645.3" yMax="652.7" base="651.0" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.0" charEdges="457.5,459.0,463.3,467.4,469.8,474.0,478.1,482.0"><![CDATA[increase]]></word>
+			<word xMin="488.3" xMax="503.3" yMin="645.3" yMax="652.7" base="651.0" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.0" charEdges="488.3,492.0,496.5,500.8"><![CDATA[your]]></word>
+			<word xMin="505.5" xMax="544.2" yMin="645.3" yMax="652.7" base="651.0" space="0" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.0" charEdges="505.5,509.2,513.7,517.8,522.0,526.6,530.9,532.3,536.5,539.0,542.0"><![CDATA[vocabulary,]]></word>
+		</line>
+		<line>
+			<word xMin="447.3" xMax="459.6" yMin="655.3" yMax="662.7" base="661.0" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.0" charEdges="447.3,451.6,455.4"><![CDATA[use]]></word>
+			<word xMin="461.8" xMax="465.9" yMin="655.3" yMax="662.7" base="661.0" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.0" charEdges="461.8"><![CDATA[a]]></word>
+			<word xMin="468.2" xMax="501.4" yMin="655.3" yMax="662.7" base="661.0" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.0" charEdges="468.2,472.8,474.2,478.4,480.8,482.2,486.7,491.0,495.1,497.6"><![CDATA[dictionary]]></word>
+			<word xMin="503.6" xMax="510.4" yMin="655.3" yMax="662.7" base="661.0" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.0" charEdges="503.6,505.9"><![CDATA[to]]></word>
+			<word xMin="512.6" xMax="525.1" yMin="655.3" yMax="662.7" base="661.0" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.0" charEdges="512.6,516.2,520.5"><![CDATA[find]]></word>
+			<word xMin="527.3" xMax="545.1" yMin="655.3" yMax="662.7" base="661.0" space="0" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.0" charEdges="527.3,531.7,534.1,538.4,542.5"><![CDATA[other]]></word>
+		</line>
+		<line>
+			<word xMin="447.3" xMax="466.8" yMin="665.3" yMax="672.7" base="671.0" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.0" charEdges="447.3,449.3,453.8,456.3,463.0"><![CDATA[forms]]></word>
+			<word xMin="469.0" xMax="475.6" yMin="665.3" yMax="672.7" base="671.0" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.0" charEdges="469.0,473.5"><![CDATA[of]]></word>
+			<word xMin="477.8" xMax="481.9" yMin="665.3" yMax="672.7" base="671.0" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.0" charEdges="477.8"><![CDATA[a]]></word>
+			<word xMin="484.2" xMax="503.7" yMin="665.3" yMax="672.7" base="671.0" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.0" charEdges="484.2,490.1,494.5,496.9,501.5"><![CDATA[word,]]></word>
+			<word xMin="506.0" xMax="521.2" yMin="665.3" yMax="672.7" base="671.0" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.0" charEdges="506.0,510.1,512.3,516.8,519.0"><![CDATA[e.g.,]]></word>
+			<word xMin="523.4" xMax="539.8" yMin="665.3" yMax="672.7" base="671.0" space="0" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.0" charEdges="523.4,525.4,529.5,534.1,535.6,537.8"><![CDATA[(adj.)]]></word>
+		</line>
+		<line>
+			<word xMin="447.3" xMax="481.3" yMin="675.3" yMax="682.7" base="681.0" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.0" charEdges="447.3,451.4,455.9,460.2,463.7,468.3,472.5,476.8,479.1"><![CDATA[confident,]]></word>
+			<word xMin="483.6" xMax="493.9" yMin="675.3" yMax="682.7" base="681.0" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.0" charEdges="483.6,485.5,489.8,492.0"><![CDATA[(n.)]]></word>
+			<word xMin="496.2" xMax="536.2" yMin="675.3" yMax="682.7" base="681.0" space="0" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.0" charEdges="496.2,500.3,504.8,509.1,512.6,517.2,521.4,525.7,529.8,534.0"><![CDATA[confidence;]]></word>
+		</line>
+		<line>
+			<word xMin="447.3" xMax="463.6" yMin="685.3" yMax="692.7" base="691.0" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.0" charEdges="447.3,449.2,453.3,457.9,459.4,461.6"><![CDATA[(adj.)]]></word>
+			<word xMin="465.8" xMax="491.0" yMin="685.3" yMax="692.7" base="691.0" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.0" charEdges="465.8,469.6,473.8,477.9,482.2,484.6,488.8"><![CDATA[secure,]]></word>
+			<word xMin="493.2" xMax="503.6" yMin="685.3" yMax="692.7" base="691.0" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.0" charEdges="493.2,495.1,499.4,501.7"><![CDATA[(n.)]]></word>
+			<word xMin="505.8" xMax="534.6" yMin="685.3" yMax="692.7" base="691.0" space="0" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.0" charEdges="505.8,509.7,513.8,518.0,522.3,524.8,526.3,528.6,532.3"><![CDATA[security;]]></word>
+		</line>
+		<line>
+			<word xMin="447.3" xMax="457.6" yMin="695.3" yMax="702.7" base="701.0" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.0" charEdges="447.3,449.2,453.5,455.7"><![CDATA[(n.)]]></word>
+			<word xMin="459.9" xMax="490.5" yMin="695.3" yMax="702.7" base="701.0" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.0" charEdges="459.9,461.9,464.3,468.5,472.6,477.2,481.7,488.3"><![CDATA[freedom,]]></word>
+			<word xMin="492.8" xMax="509.1" yMin="695.3" yMax="702.7" base="701.0" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.0" charEdges="492.8,494.7,498.8,503.4,504.9,507.1"><![CDATA[(adj.)]]></word>
+			<word xMin="511.3" xMax="526.3" yMin="695.3" yMax="702.7" base="701.0" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.0" charEdges="511.3,513.4,515.7,519.9,524.0"><![CDATA[free;]]></word>
+			<word xMin="528.5" xMax="537.5" yMin="695.3" yMax="702.7" base="701.0" space="0" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.0" charEdges="528.5,530.4,533.4,535.6"><![CDATA[(v.)]]></word>
+		</line>
+		<line>
+			<word xMin="447.3" xMax="478.4" yMin="705.3" yMax="712.7" base="711.0" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.0" charEdges="447.3,451.1,455.6,459.7,461.2,465.3,466.8,468.3,472.0,476.2"><![CDATA[socialize,]]></word>
+			<word xMin="480.6" xMax="496.9" yMin="705.3" yMax="712.7" base="711.0" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.0" charEdges="480.6,482.5,486.7,491.3,492.8,495.0"><![CDATA[(adj.)]]></word>
+			<word xMin="499.1" xMax="520.9" yMin="705.3" yMax="712.7" base="711.0" space="0" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.0" charEdges="499.1,503.0,507.4,511.6,513.1,517.2,518.7"><![CDATA[social;]]></word>
+		</line>
+		<line>
+			<word xMin="447.3" xMax="463.6" yMin="715.3" yMax="722.7" base="721.0" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.0" charEdges="447.3,449.2,453.3,457.9,459.4,461.6"><![CDATA[(adj.)]]></word>
+			<word xMin="465.8" xMax="495.6" yMin="715.3" yMax="722.7" base="721.0" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.0" charEdges="465.8,469.3,473.6,477.8,482.1,486.2,487.7,491.9,493.4"><![CDATA[financial,]]></word>
+			<word xMin="497.8" xMax="508.2" yMin="715.3" yMax="722.7" base="721.0" space="1" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.0" charEdges="497.8,499.7,504.0,506.2"><![CDATA[(n.)]]></word>
+			<word xMin="510.4" xMax="537.2" yMin="715.3" yMax="722.7" base="721.0" space="0" fontName="MFPHGN+HelveticaNeueLTStd-Lt" fontSize="8.0" charEdges="510.4,514.0,518.2,522.4,526.7,530.8,535.0"><![CDATA[finance.]]></word>
+		</line>
+	</block>
+</flow>
+<flow xMin="27.0" xMax="32.7" yMin="753.8" yMax="763.4" priMin="0.0" priMax="40.2">
+	<block rot="0" xMin="27.0" xMax="32.7" yMin="753.8" yMax="763.4" priMin="0.0" priMax="40.2">
+		<line>
+			<word xMin="27.0" xMax="32.7" yMin="753.8" yMax="763.4" base="760.2" space="0" fontName="MFPHGO+GalliardStd-Black" fontSize="9.0" charEdges="27.0"><![CDATA[4]]></word>
+		</line>
+	</block>
+</flow>
+<flow xMin="40.2" xMax="41.9" yMin="753.6" yMax="762.7" priMin="32.7" priMax="49.1">
+	<block rot="0" xMin="40.2" xMax="41.9" yMin="753.6" yMax="762.7" priMin="32.7" priMax="49.1">
+		<line>
+			<word xMin="40.2" xMax="41.9" yMin="753.6" yMax="762.7" base="760.2" space="0" fontName="MFPHFM+HelveticaNeueLTStd-LtEx" fontSize="7.0" charEdges="40.2"><![CDATA[|]]></word>
+		</line>
+	</block>
+</flow>
+<flow xMin="49.1" xMax="78.7" yMin="753.6" yMax="762.7" priMin="41.9" priMax="612.0">
+	<block rot="0" xMin="49.1" xMax="78.7" yMin="753.6" yMax="762.7" priMin="41.9" priMax="612.0">
+		<line>
+			<word xMin="49.1" xMax="71.2" yMin="753.6" yMax="762.7" base="760.2" space="1" fontName="MFPHFM+HelveticaNeueLTStd-LtEx" fontSize="7.0" charEdges="49.1,56.2,63.5,66.4"><![CDATA[UNIT]]></word>
+			<word xMin="75.3" xMax="78.7" yMin="753.6" yMax="762.7" base="760.2" space="0" fontName="MFPHFM+HelveticaNeueLTStd-LtEx" fontSize="7.0" charEdges="75.3"><![CDATA[1]]></word>
+		</line>
+	</block>
+</flow>
+</page>
