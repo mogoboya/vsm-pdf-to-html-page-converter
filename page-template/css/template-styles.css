@@ -1,11 +1,14 @@
+* {
+	box-sizing:border-box;
+}
+
+#bg-image {
+	width:100%;
+}
+
 #main_container_inner {
-	background: url('../img/template-bg.jpg') no-repeat;
-    height: 672px;
-    width: 1024px;
+	width: 100%;
+	margin: 0 auto;
 }
 
 %INSERTBLOCKS%
-
-p.indent {
-	text-indent: 15px;
-}
