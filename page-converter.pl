@@ -10,12 +10,12 @@ use JSON;
 my $processDir = "sample-book";
 my $pdf = $processDir ."/sample-book.pdf";
 my $pdfbg = $processDir ."/sample-book-bg.pdf";
-my $outputDir = $processDir ."/output2";
+my $outputDir = $processDir ."/output";
 my $pageTemplate = "page-template";
 my $bookTemplate = "book-template";
 
 # Detect # of pages and page size of source PDF.
-## FOR TESTING ONLY
+## FOR TESTING ONLY - this should be easy to grab with CAM::PDF later
 my $numPages = 6;
 my $pageWidth = 1024;
 my $pageHeight = 672;
