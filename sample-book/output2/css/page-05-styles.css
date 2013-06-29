@@ -1,8 +1,21 @@
-#main_container_inner {
-	background: url('../img/page-05-bg.jpg') no-repeat;
-    height: 672px;
-    width: 1024px;
+* {
+	box-sizing:border-box;
 }
+
+#bg-image {
+	width:100%;
+}
+
+#main_container_inner {
+	width: 100%;
+	margin: 0 auto;
+}
+
+span {
+	margin:0;
+	padding:0;
+}
+
 
 #block-0-line-0 {position: absolute;left: 142.4px;top: 118.2px;font-size: 37.2px;font-family: 'SlateStd-Black';}
 #block-1-line-0 {position: absolute;left: 202.7px;top: 118.2px;font-size: 37.2px;font-family: 'SlateStd-Black';}
@@ -174,8 +187,3 @@
 #block-167-line-0 {position: absolute;left: 627.8px;top: 557.7px;font-size: 9.3px;font-family: 'SlateStd-Bold';}
 #block-168-line-0 {position: absolute;left: 692.5px;top: 550.1px;font-size: 9.3px;font-family: 'SlateStd-Bold';}
 #block-169-line-0 {position: absolute;left: 694.0px;top: 558.9px;font-size: 9.3px;font-family: 'SlateStd-Bold';}
-
-
-p.indent {
-	text-indent: 15px;
-}

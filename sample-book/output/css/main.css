@@ -94,9 +94,7 @@ textarea {
    ========================================================================== */
 
 #shell_footer {
-	background: url('../img/shell_footer.png') no-repeat;
-    height: 30px;
-    width: 1024px;
+    width: 100%;
     margin: -35px auto;
     position: relative;
     z-index: 9999;
@@ -104,15 +102,14 @@ textarea {
 
 iframe {
 	border: none;
-	height: 672px;
-    width: 1024px;
+    width: 100%;
+	height: 800px;
     margin: 0px auto 0 auto;
 }
 
 
 #main_container {
-    height: 672px;
-    width: 1024px;
+    width: 100%;
     margin: 0 auto;
     position: relative;
     z-index: 9997;

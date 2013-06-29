@@ -93,58 +93,45 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-#shell_footer {
-	background: url('../img/shell_footer.png') no-repeat;
-    height: 30px;
-    width: 1024px;
-    margin: -35px auto;
-    position: relative;
-    z-index: 9999;
-}
-
-iframe {
-	border: none;
-	height: 672px;
-    width: 1024px;
-    margin: 0px auto 0 auto;
-}
-
-
-#main_container {
-    height: 672px;
-    width: 1024px;
-    margin: 0 auto;
-    position: relative;
-    z-index: 9997;
+#links {
+	margin: 0;
+	padding:0;
+	position: relative;
 }
 
 #back, #forward {
-    height: 27px;
-    width: 33px;
-    position: absolute;
-    margin: 0;
-    padding: 0;
+    height: 25px;
+    padding: 4px 7px 7px 7px;
+	text-align: center;
+	font-size: 10px;
+	border: solid #555 1px;
+	border-radius: 7px;
+}
+#back {
+    margin: -35px 0 0 10px;
+	float: left;
+	background-color: #ff9999;
+	
+}
+#forward {
+    margin: -35px 10px 0 0;
+    float: right;
+	background-color: #99ee99;
+}
+
+a {
+	color: #333333;
+	text-decoration: none;
 }
 
 .invisible_link {
+
     cursor: pointer;
 }
 
-#back {
-    left: 18px;
-}
-
-#forward {
-    left: 970px;
-}
-
-p {
+span {
 	margin: 0px;
 	padding: 0px;
-}
-
-p.indent {
-	text-indent: 15px;
 }
 
 /* ==========================================================================

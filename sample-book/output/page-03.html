@@ -14,8 +14,6 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/page-03-styles.css">
     <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
 </head>
 <body>
     <!--[if lt IE 7]>
@@ -128,40 +126,8 @@
 <span id="block-101-line-0">quickly.</span>
 
 	</div>
-	<script>
-		$(document).ready(function () {
-			var lookupTable = {};
-            var placeText = function() {
-                var nativeW = document.getElementById('bg-image').naturalWidth; // eg 500
-				var nativeH = document.getElementById('bg-image').naturalHeight; // eg 1000
-                var currW = ($(this).width()); // zoomed in to 1.5x - 750
-                var sizeRatio = currW / nativeW; // eg 1.5
-				var currH = sizeRatio * nativeH; // 1.5 * 1000 = 1500
-                $('span').each(function () {
-                    var $this = $(this);
-					var newX, newY, newSize;
-					var id = $this.attr('id');
-					// Check lookupTable if ID has been defined
-					if (!(lookupTable[id])) {
-						var origX = parseFloat($this.css('left'),10);
-						var origY = parseFloat($this.css('top'),10);
-						var origSize = parseFloat($this.css('font-size'),10);
-						lookupTable[id] = {'x' : origX, 'y': origY, 'size': origSize};
-					}
-					newX = lookupTable[id].x * sizeRatio;
-					newY = lookupTable[id].y * sizeRatio;
-					newSize = lookupTable[id].size * sizeRatio;
-					$this.css('left', newX + "px");
-					$this.css('top', newY + "px");		
-					$this.css('font-size', newSize + "px");		
-                });
-            };
-            
-            $('#bg-image').load(placeText);
-            $(window).resize(placeText);
-		});
-	</script>
-
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.0.min.js"><\/script>')</script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
 	
