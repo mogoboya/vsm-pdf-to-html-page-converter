@@ -11,4 +11,9 @@
 
 */
 
-%INSERTFONTS%
+@font-face {font-family: 'SlateStd-Black';src: url('../fonts/SlateStd-Black.eot');src: local('☺'),url('../fonts/SlateStd-Black.woff') format('woff'),url('../fonts/SlateStd-Black.ttf') format('truetype'),url('../fonts/SlateStd-Black.svg#SlateStd-Black') format('svg');}
+@font-face {font-family: 'URWGroteskT-Lig';src: url('../fonts/URWGroteskT-Lig.eot');src: local('☺'),url('../fonts/URWGroteskT-Lig.woff') format('woff'),url('../fonts/URWGroteskT-Lig.ttf') format('truetype'),url('../fonts/URWGroteskT-Lig.svg#URWGroteskT-Lig') format('svg');}
+@font-face {font-family: 'SlateStd-Medium';src: url('../fonts/SlateStd-Medium.eot');src: local('☺'),url('../fonts/SlateStd-Medium.woff') format('woff'),url('../fonts/SlateStd-Medium.ttf') format('truetype'),url('../fonts/SlateStd-Medium.svg#SlateStd-Medium') format('svg');}
+@font-face {font-family: 'SlateStd-Bold';src: url('../fonts/SlateStd-Bold.eot');src: local('☺'),url('../fonts/SlateStd-Bold.woff') format('woff'),url('../fonts/SlateStd-Bold.ttf') format('truetype'),url('../fonts/SlateStd-Bold.svg#SlateStd-Bold') format('svg');}
+@font-face {font-family: 'SlateStd-BoldItalic';src: url('../fonts/SlateStd-BoldItalic.eot');src: local('☺'),url('../fonts/SlateStd-BoldItalic.woff') format('woff'),url('../fonts/SlateStd-BoldItalic.ttf') format('truetype'),url('../fonts/SlateStd-BoldItalic.svg#SlateStd-BoldItalic') format('svg');}
+@font-face {font-family: 'SlateStd-MediumCondensed';src: url('../fonts/SlateStd-MediumCondensed.eot');src: local('☺'),url('../fonts/SlateStd-MediumCondensed.woff') format('woff'),url('../fonts/SlateStd-MediumCondensed.ttf') format('truetype'),url('../fonts/SlateStd-MediumCondensed.svg#SlateStd-MediumCondensed') format('svg');}

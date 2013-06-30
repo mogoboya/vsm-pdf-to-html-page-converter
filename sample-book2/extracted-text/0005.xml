@@ -73,10 +73,10 @@
 <flow xMin="94.7" xMax="504.0" yMin="346.5" yMax="390.3" priMin="84.6" priMax="612.0">
 	<block rot="0" xMin="94.7" xMax="504.0" yMin="346.5" yMax="390.3" priMin="84.6" priMax="612.0">
 		<line>
-			<word xMin="94.7" xMax="126.9" yMin="346.5" yMax="362.1" base="357.9" space="1" fontName="MFPILP+GalliardStd-Black-SC700" fontSize="12.0" charEdges="94.7,107.3,115.0,120.7"><![CDATA[WHAT]]></word>
-			<word xMin="130.4" xMax="162.9" yMin="349.9" yMax="360.9" base="357.9" space="1" fontName="MFPILP+GalliardStd-Black-SC700" fontSize="8.4" charEdges="130.4,138.7,144.8,151.7,157.6"><![CDATA[MAKES]]></word>
-			<word xMin="166.4" xMax="178.9" yMin="349.9" yMax="360.9" base="357.9" space="1" fontName="MFPILP+GalliardStd-Black-SC700" fontSize="8.4" charEdges="166.4,173.6"><![CDATA[US]]></word>
-			<word xMin="182.4" xMax="218.9" yMin="349.9" yMax="360.9" base="357.9" space="1" fontName="MFPILP+GalliardStd-Black-SC700" fontSize="8.4" charEdges="182.4,190.1,196.2,202.0,207.8,213.7"><![CDATA[HAPPY?]]></word>
+			<word xMin="94.7" xMax="126.9" yMin="346.5" yMax="362.1" base="357.9" space="1" fontName="MFPILP+GalliardStd-Black" fontSize="12.0" charEdges="94.7,107.3,115.0,120.7"><![CDATA[WHAT]]></word>
+			<word xMin="130.4" xMax="162.9" yMin="349.9" yMax="360.9" base="357.9" space="1" fontName="MFPILP+GalliardStd-Black" fontSize="8.4" charEdges="130.4,138.7,144.8,151.7,157.6"><![CDATA[MAKES]]></word>
+			<word xMin="166.4" xMax="178.9" yMin="349.9" yMax="360.9" base="357.9" space="1" fontName="MFPILP+GalliardStd-Black" fontSize="8.4" charEdges="166.4,173.6"><![CDATA[US]]></word>
+			<word xMin="182.4" xMax="218.9" yMin="349.9" yMax="360.9" base="357.9" space="1" fontName="MFPILP+GalliardStd-Black" fontSize="8.4" charEdges="182.4,190.1,196.2,202.0,207.8,213.7"><![CDATA[HAPPY?]]></word>
 			<word xMin="222.4" xMax="261.6" yMin="349.3" yMax="360.8" base="357.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="12.0" charEdges="222.4,233.7,240.2,246.7,252.2,257.3"><![CDATA[Money?]]></word>
 			<word xMin="265.0" xMax="306.4" yMin="349.3" yMax="360.8" base="357.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="12.0" charEdges="265.0,271.7,276.3,279.2,284.5,291.0,297.8,302.1"><![CDATA[Friends?]]></word>
 			<word xMin="309.8" xMax="317.9" yMin="349.3" yMax="360.8" base="357.9" space="1" fontName="MFPIFL+GalliardStd-Roman" fontSize="12.0" charEdges="309.8"><![CDATA[A]]></word>

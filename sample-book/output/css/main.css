@@ -100,8 +100,7 @@ textarea {
 }
 
 #back, #forward {
-    height: 25px;
-    padding: 4px 7px 7px 7px;
+    padding: 7px;
 	text-align: center;
 	font-size: 10px;
 	border: solid #555 1px;

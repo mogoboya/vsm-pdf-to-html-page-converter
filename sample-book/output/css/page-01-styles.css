@@ -9,7 +9,9 @@
 #main_container_inner {
 	width: 100%;
 	margin: 0 auto;
+	max-width:1024px;
+	min-width:416px;
 }
 
-#block-0-line-0 {position: absolute;left: 100.9px;top: 248.2px;font-size: 135.7px;font-family: 'SlateStd-Black';}
-#block-1-line-0 {position: absolute;left: 123.2px;top: 178.2px;font-size: 93.1px;font-family: 'SlateStd-Black';}
+#block-0-line-0 {position: absolute;left: 100.9px;top: 229px;font-size: 135.7px;font-family: 'SlateStd-Black';}
+#block-1-line-0 {position: absolute;left: 123.2px;top: 165.1px;font-size: 93.1px;font-family: 'SlateStd-Black';}

@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'URWGroteskBold';
+    src: url('urwgrotesk-bol.eot');
+    src: url('urwgrotesk-bol.eot') format('embedded-opentype'),
+         url('urwgrotesk-bol.woff') format('woff'),
+         url('urwgrotesk-bol.ttf') format('truetype'),
+         url('urwgrotesk-bol.svg#URWGroteskBold') format('svg');
+}

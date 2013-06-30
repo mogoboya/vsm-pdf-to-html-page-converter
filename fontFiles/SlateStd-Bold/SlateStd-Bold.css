@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'SlateStdBold';
+    src: url('slatestd-bold.eot');
+    src: url('slatestd-bold.eot') format('embedded-opentype'),
+         url('slatestd-bold.woff') format('woff'),
+         url('slatestd-bold.ttf') format('truetype'),
+         url('slatestd-bold.svg#SlateStdBold') format('svg');
+}

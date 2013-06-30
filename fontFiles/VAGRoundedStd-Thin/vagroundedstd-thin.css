@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'VAGRoundedStdThin';
+    src: url('vagroundedstd-thin.eot');
+    src: url('vagroundedstd-thin.eot') format('embedded-opentype'),
+         url('vagroundedstd-thin.woff') format('woff'),
+         url('vagroundedstd-thin.ttf') format('truetype'),
+         url('vagroundedstd-thin.svg#VAGRoundedStdThin') format('svg');
+}
