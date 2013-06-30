@@ -9,6 +9,8 @@
 #main_container_inner {
 	width: 100%;
 	margin: 0 auto;
+	max-width:1024px;
+	min-width:416px;
 }
 
 %INSERTBLOCKS%

@@ -1,4 +1,4 @@
-$( document ).ready(function() {
+$(document).ready(function() {
 	
 	// Hide text until the background image loads
 	$('span').each(function () {
@@ -10,11 +10,17 @@ $( document ).ready(function() {
 	
 	// Place text / resize and reposition text on window resize
 	var placeText = function() {
-		var nativeW = document.getElementById('bg-image').naturalWidth; // eg 500
-		var nativeH = document.getElementById('bg-image').naturalHeight; // eg 1000
-		var currW = ($(this).width()); // zoomed in to 1.5x - 750
+		var windowWidth = window.innerWidth;
+		var image = document.getElementById('bg-image');
+		var nativeW = image.naturalWidth; // eg 500
+		var nativeH = image.naturalHeight; // eg 1000
+		var currW = $(image).width(); // zoomed in to 1.5x - 750
 		var sizeRatio = currW / nativeW; // eg 1.5
 		var currH = sizeRatio * nativeH; // 1.5 * 1000 = 1500
+		var offset = 0;
+		if (windowWidth > currW) {
+			offset = (windowWidth - currW) / 2;
+		}
 		$('span').each(function () {
 			var $this = $(this);
 			var newX, newY, newSize;
@@ -28,7 +34,7 @@ $( document ).ready(function() {
 				$this.css('transition', 'left .05s ease-out 0s top .05s ease-out 0s font-size .05s ease-out 0s');
 				$this.css('webkit-transition', 'left .05s ease-out 0s top .05s ease-out 0s font-size .05s ease-out 0s');
 			}
-			newX = lookupTable[id].x * sizeRatio;
+			newX = (lookupTable[id].x * sizeRatio) + offset;
 			newY = lookupTable[id].y * sizeRatio;
 			newSize = lookupTable[id].size * sizeRatio;
 			$this.css('left', newX + 'px');
@@ -39,7 +45,7 @@ $( document ).ready(function() {
 	};
 	
 	// Place and size text as soon as the background image loads, then again on every window resize.
-	$('#bg-image').load(placeText);
+	$('body').waitForImages(placeText);
 	$(window).resize(placeText);
 });
 
