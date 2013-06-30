@@ -10,7 +10,8 @@ $(document).ready(function() {
 	
 	// Place text / resize and reposition text on window resize
 	var placeText = function() {
-		var windowWidth = window.innerWidth;
+		var windowWidth = $('body').width();
+		console.log(windowWidth);
 		var image = document.getElementById('bg-image');
 		var nativeW = image.naturalWidth; // eg 500
 		var nativeH = image.naturalHeight; // eg 1000
@@ -20,6 +21,7 @@ $(document).ready(function() {
 		var offset = 0;
 		if (windowWidth > currW) {
 			offset = (windowWidth - currW) / 2;
+			console.log(offset);
 		}
 		$('span').each(function () {
 			var $this = $(this);
