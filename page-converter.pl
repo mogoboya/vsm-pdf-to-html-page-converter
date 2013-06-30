@@ -1,35 +1,33 @@
 #!/usr/bin/env perl -w
 use strict;
-use CAM::PDF;
-use Data::Dumper;
-use File::Copy::Recursive qw(rcopy);
-use File::Copy;
-use JSON;
 use utf8;
+use JSON;
+use CAM::PDF;
 use XML::LibXML;
+use File::Copy;
+use File::Copy::Recursive qw(rcopy);
+use Data::Dumper;
 
-# Set inputs.  PDF name, output directory, template page file, etc.
-my $processDir = "sample-book2";
-my $pdf = $processDir ."/merged_r.pdf";
-my $pdfbg = $processDir ."/merged_bg.pdf";
-my $outputDir = $processDir ."/output";
+# Set inputs from command-line arguments.  PDF name, output directory, template page file, etc.
+my ($processDir, $pdf, $pdfbg, $outputDir) = readArgs(@ARGV);
+
 my $pageTemplate = "page-template";
 my $bookTemplate = "book-template";
 
 # Detect # of pages and page size of source PDF.
-## FOR TESTING ONLY - this should be easy to grab with CAM::PDF later
-my $numPages = 6;
-my $pageWidth = 1024;
-my $pageHeight = 672;
+my $cam = CAM::PDF->new($pdf);
+my $numPages = $cam->numPages();
 
 # Declare global page-converter object
 my $pageConverter = {};
-
 
 ## Create pagelist w/ background names, XPDF names and page #
 ### For each page in the PDF
 my $i = 0;
 while ($i < $numPages) {
+    my $pageWidth = ($cam->getPageDimensions($i+1))[2];
+    my $pageHeight = ($cam->getPageDimensions($i+1))[3];
+    
 	my $pageBase = "page-0" . ($i + 1);
 	$pageConverter->{"pageList"}[$i]{"bgName"} = $pageBase . "-bg.jpg";
 	$pageConverter->{"pageList"}[$i]{"xpdfName"} = "000" . ($i + 1) . ".xml";
@@ -206,4 +204,15 @@ sub readFileToString {
 	while (<FILE>) {$string .= $_}
 	close FILE;
 	return $string;
+}
+
+sub readArgs {
+    my @args = @_;
+    
+    my $processDir = $args[0];
+    my $pdf = $processDir . "/" . $args[1];
+    my $pdfbg = $processDir . "/" . $args[2];
+    my $outputDir = $processDir . "/" . $args[3];
+    
+    return ($processDir, $pdf, $pdfbg, $outputDir);
 }
