@@ -1,7 +1,7 @@
 #!/usr/bin/env perl -w
 use CAM::PDF;
 
-my $pdf = "C:/VPGProjects/projects/vsm-pdf-to-html-page-converter/sample-book2/merged_r.pdf";
-print $pdf;
-system("pause");
+my $pdf = "merged_r.pdf";
+print $pdf ."\n";
 my $cam = CAM::PDF->new($pdf);
+print $cam->numPages() ."\n";
